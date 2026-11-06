@@ -1,54 +1,239 @@
-<<<<<<< HEAD
-# Creator Intelligence Platform – Little Joys
+# LittleJoy — Creator Intelligence Platform
 
-Reproducible analytics for matching ad-creative patterns to purchases/revenue and, later, to creators.
+**Turning creator data and advertising insights into smarter campaign decisions.**
 
-## Quick start
+LittleJoy is a data-driven creator intelligence and campaign recommendation platform designed to help brands understand advertising performance, evaluate creators, identify creative patterns, and make more informed influencer marketing decisions.
+
+The platform combines reproducible data analysis, explainable creator ranking, creative intelligence, and an interactive dashboard into one integrated workflow.
+
+---
+
+## What LittleJoy Does
+
+LittleJoy goes beyond traditional influencer discovery. It connects three important questions:
+
+- **What works?** Analyze advertising patterns and identify attributes associated with purchases and revenue.
+- **Who fits?** Evaluate and rank creators using multiple dimensions rather than follower count alone.
+- **Why does it work?** Connect successful advertising patterns with creator content styles to generate actionable creative recommendations.
+
+## Core Features
+
+### 1. Ad Performance Intelligence
+- Analyze relationships between ad creative attributes, purchases, and revenue.
+- Identify patterns across advertising campaigns.
+- Generate structured analytical reports and visualizations.
+- Maintain reproducible outputs with seeded analysis and hash-logged run manifests.
+
+### 2. Explainable Creator Intelligence
+- Evaluate 20 creators across five weighted dimensions:
+  - Relevance — 25%
+  - Engagement — 20%
+  - Creative Compatibility — 20%
+  - Authenticity — 20%
+  - Audience Fit — 15%
+- Generate an explainable creator shortlist.
+- Include evidence coverage, confidence scores, and bootstrap-based ranking stability.
+- Support interactive weight adjustments through the dashboard.
+
+### 3. Creative DNA Matching
+- Map advertising attributes to creator content characteristics.
+- Identify creative similarities and potential compatibility.
+- Generate creator-specific style, strengths, and improvement-gap profiles.
+- Link recommendations to supporting advertisement and post IDs.
+
+### 4. AI Creative Studio
+Generate structured campaign briefs for shortlisted creators, including:
+- Campaign concepts and creative hooks.
+- 30–45 second video scripts.
+- Visual directions and on-screen text.
+- Calls to action and tone recommendations.
+- Claims to avoid and information requiring confirmation.
+
+Features include editable outputs, section-level regeneration, and Markdown/JSON downloads.
+
+The studio works offline using templates, with an optional Anthropic API integration for LLM-powered generation.
+
+### 5. Interactive Streamlit Dashboard
+
+The platform includes eight main dashboard sections:
+
+| Page | Purpose |
+|---|---|
+| Home | Platform introduction |
+| Overview | Key analytical insights |
+| Creator Shortlist | Interactive creator ranking |
+| Creator Profiles | Individual creator analysis |
+| Ad Intelligence | Advertising performance insights |
+| Creative DNA | Ad-to-creator creative matching |
+| Campaign Studio | AI-assisted campaign briefs |
+| Methodology | Analytical methods and explanations |
+
+---
+
+## Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn |
+| Dashboard | Streamlit |
+| Testing | Pytest |
+| AI Integration | Anthropic API (optional) |
+| Version Control | Git, GitHub |
+
+---
+
+## Project Architecture
+
+```text
+LittleJoy/
+│
+├── app.py
+├── requirements.txt
+│
+├── dashboard/
+│   ├── theme.py
+│   ├── data loaders
+│   └── dashboard pages
+│
+├── scripts/
+│   ├── run_audit.py
+│   ├── run_ad_analysis.py
+│   ├── run_creator_analysis.py
+│   ├── run_creative_dna.py
+│   └── run_creative_studio.py
+│
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+│
+├── reports/
+│   ├── tables/
+│   ├── ad/
+│   ├── creator/
+│   └── dna/
+│
+├── docs/
+│   ├── data_audit.md
+│   ├── ad_analysis.md
+│   ├── creator_analysis.md
+│   ├── creative_dna.md
+│   └── creative_studio.md
+│
+└── tests/
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.10+
+- pip
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Kanishka1401/LittleJoy.git
+cd LittleJoy
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+Activate it:
+
+**Windows**
+```bash
+.venv\Scripts\activate
+```
+
+**macOS / Linux**
+```bash
+source .venv/bin/activate
+```
+
+### 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
-python scripts/run_audit.py          # loads + validates; writes reports/tables/data_quality_report.csv
-pytest -q
 ```
-Set `CIP_RAW_DIR` to read raw CSVs from another folder. Raw files in `data/raw/` are read-only inputs and are never edited;
-all cleaning happens in code and is written to `data/interim/` or `data/processed/`.
 
-## Layout
-See `docs/data_audit.md` §8 for the full tree and rationale.
+### 4. Run the data audit
 
-## Ad performance analysis
 ```bash
-python scripts/run_ad_analysis.py   # writes reports/ad/{tables,json} and data/processed/*.csv
+python scripts/run_audit.py
 ```
-Methods, results and an output dictionary: `docs/ad_analysis.md`. Outputs are deterministic (seeded) and hash-logged in `reports/ad/json/run_manifest.json`.
 
-## Creator analysis engine
+### 5. Run the analytical pipelines
+
 ```bash
-python scripts/run_creator_analysis.py   # ~70 s (300 bootstrap resamples); writes reports/creator/{tables,json}
-pytest -q tests/test_creator_analysis.py
+python scripts/run_ad_analysis.py
+python scripts/run_creator_analysis.py
+python scripts/run_creative_dna.py
 ```
-Explainable 5-dimension ranking of the 20 creators (relevance 25 / engagement 20 / creative compatibility 20 / authenticity 20 / audience fit 15)
-with evidence coverage, confidence and bootstrap rank stability. Methods, results and output dictionary: `docs/creator_analysis.md`.
-Reads `data/raw/` only; never writes to `reports/ad/` or `data/processed/`.
 
-## Dashboard (Streamlit)
+### 6. Launch the dashboard
+
 ```bash
-pip install -r requirements.txt
 streamlit run app.py
 ```
-Eight pages behind a top masthead: Home (landing page), Overview, Creator shortlist (interactive weights), Creator profiles, Ad intelligence, Creative DNA, Campaign Studio, Methodology. The interface uses an editorial ivory/forest design (`dashboard/theme.py`); the ad performance figures are synthetic and the app says so on every page. The app only reads
-`reports/ad/`, `reports/creator/` and `data/` outputs; re-run `scripts/run_ad_analysis.py` / `scripts/run_creator_analysis.py` to refresh them.
-Code: `app.py` (navigation) and `dashboard/` (theme, data loaders, one module per page).
 
-## Creative DNA matching
+Open the local URL provided by Streamlit in your browser.
+
+### 7. Run tests
+
 ```bash
-python scripts/run_creative_dna.py   # writes reports/dna/ (reads reports/ad and reports/creator; changes neither)
+pytest -q
 ```
-Explicit ad↔post attribute mapping, LJ-004-aware ad patterns and per-creator style/strength/gap profiles with supporting ad and post IDs; shown on the
-**Creative DNA** page of the dashboard. Methods and caveats: `docs/creative_dna.md`.
 
-## AI Creative Studio
-Sidebar page **AI Creative Studio**: pick one of the five shortlisted creators, generate a brief (concept, 3 hooks, 30-45 s script, visual directions, on-screen text, CTA, tone, claims to avoid), edit it, regenerate single sections and download .md/.json. Works offline from templates; an optional LLM path activates with `ANTHROPIC_API_KEY`. Only claims found in Little Joys' own ad files are used; everything else is a `[[CONFIRM: ...]]` placeholder. See `docs/creative_studio.md`; batch outputs via `python scripts/run_creative_studio.py`.
-=======
-# LittleJoy
-Data-driven creator intelligence and campaign recommendation platform
->>>>>>> a6a7eea757619493b483158b506406d0f0d0aacc
+For creator-specific tests:
+
+```bash
+pytest -q tests/test_creator_analysis.py
+```
+
+---
+
+## Design Principles
+
+**Reproducibility:** Analytical pipelines use deterministic outputs and documented methods.
+
+**Explainability:** Creator recommendations are supported by individual scoring dimensions and evidence rather than unexplained rankings.
+
+**Data Integrity:** Raw input files are treated as read-only. Cleaning and transformations happen through code, with outputs written to separate directories.
+
+**Transparency:** Synthetic advertising performance figures are explicitly identified as synthetic in the dashboard. The platform does not present them as verified real-world campaign results.
+
+**Responsible Recommendations:** The Creative Studio uses available evidence and flags unverified claims with confirmation placeholders.
+
+---
+
+## Documentation
+
+Detailed implementation notes, methodologies, assumptions, and output dictionaries are available in the `docs/` directory.
+
+| Document | Description |
+|---|---|
+| `data_audit.md` | Data validation and preprocessing |
+| `ad_analysis.md` | Advertising analysis methodology |
+| `creator_analysis.md` | Creator scoring and ranking |
+| `creative_dna.md` | Creative compatibility methodology |
+| `creative_studio.md` | AI Creative Studio implementation |
+
+---
+
+## Project
+
+**LittleJoy — Creator Intelligence Platform**
+
+Built to make creator discovery, advertising analysis, and campaign planning more evidence-driven, explainable, and actionable.
+
+**Repository:** [Kanishka1401/LittleJoy](https://github.com/Kanishka1401/LittleJoy)
