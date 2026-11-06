@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-10-27",
+  "bootstrap_B": 300,
+  "inputs_sha256": {
+    "ads": "e19f253790f9dd93f30f24ce9587c21de009436533ab6bd2b3acaa874a1481d1",
+    "audience": "80ca1498cdac7335592bacd67f0d2d16415efd595b64ad3406f670e95f890b98",
+    "creators": "11a8696b91e80e7316a60e1a4ed691e709c71567d44283598917e79b07a821ba",
+    "posts": "9f0c9a768d40b89fc3d61c476f69031af9fc710f6adcb27d529c283a58520434"
+  },
+  "numpy": "2.5.3",
+  "outputs_sha256": {
+    "ad_post_crosswalk.csv": "a5f8a88974d0410fc7e27237272853a672e025b82c7e2989205384abd830d21b",
+    "audience_demographics_parsed.csv": "c35c5c1a31c66b62e17f133a2501cf3a243c2a3d9331ff9c28408aa68778bc92",
+    "component_scores.csv": "f2f98d251038d58381e1ded088300fc66f6e60d31aec839c48872762e4f00748",
+    "creator_metrics.csv": "384a87a8b34fe365ddc12c11e8bbe3bfc539eb227c79629110f68c4547e0cec0",
+    "creator_ranking.csv": "889d7de94d356ef82419b729c56b51124ddf6777992e43bfe852263931e910c6",
+    "evidence_coverage_confidence.csv": "dbae8252c67393ba395ec90d83f6e9c3857251f8d0e71612698fe193ebd20845",
+    "sensitivity_rankings.csv": "525a9d1f5ee8da15e0ad9f909794aa45fa00e0692793397078b26def27508351",
+    "top5.json": "f7f5b1fa469445defa0517b05f60004acc6441b7d61fcfccea2aaf7706a76247",
+    "top5_explanations.csv": "bc6cef53ec3a77a778de385dea9bd416eb49b095c9124ea06e378d7b8fee238a",
+    "weights_and_config.json": "5bc2f02836dd84ce9de1000519f00d54cfbdf7f1746b1a1e47b58c6fdcfe1fe2",
+    "window_performance.csv": "23c6949d2ffac1c55eb3a643aa7ab8400096ec3fde4c352e0ce208c3db73f0f7"
+  },
+  "pandas": "3.0.5",
+  "seed": 20261105
+}

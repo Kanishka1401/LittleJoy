@@ -1,0 +1,25 @@
+metric,attribute,level,n_level,ctrl_diff,ctrl_lo,ctrl_hi,diff__creative_excl_LJ004,in_registry,status
+hook_rate,language,English,37,-0.0517,-0.0921,-0.0099,-0.052,False,no post-side equivalent / mirror / not in registry
+hook_rate,ad_format,explainer_to_camera,24,-0.0828,-0.1201,-0.0478,-0.0816,True,mapped (see mapping table)
+hook_rate,ad_format,skit,14,0.0751,0.0208,0.1306,0.076,True,mapped (see mapping table)
+hook_rate,performance_style,earnest_talk,21,-0.0811,-0.1092,-0.0406,-0.0798,True,mapped (see mapping table)
+cvr_click,humour,none,79,0.02,0.0053,0.0301,0.0125,True,mapped (see mapping table)
+hook_rate,humour,none,79,-0.0991,-0.133,-0.0402,-0.1089,False,no post-side equivalent / mirror / not in registry
+hook_rate,humour,situational,12,0.0971,0.0309,0.132,0.1041,True,mapped (see mapping table)
+cvr_click,creator_type,parent_or_caregiver,56,-0.0192,-0.0291,-0.0047,-0.0112,True,mapped (see mapping table)
+hook_rate,child_on_screen,none,36,-0.0575,-0.0922,-0.0167,-0.0577,False,no post-side equivalent / mirror / not in registry
+hook_rate,child_in_first_3s,no,57,-0.0842,-0.1077,-0.0504,-0.0878,False,no post-side equivalent / mirror / not in registry
+cvr_click,language_mixing,occasional_borrowing,52,-0.0236,-0.0322,-0.0066,-0.0135,True,mapped (see mapping table)
+hook_rate,language_mixing,occasional_borrowing,52,0.049,0.0146,0.0879,0.0637,True,mapped (see mapping table)
+hook_rate,language_mixing,single_language,25,-0.0466,-0.0961,-0.0082,-0.0472,False,no post-side equivalent / mirror / not in registry
+hook_rate,first_frame,product,15,-0.0632,-0.0893,-0.0319,-0.0597,True,mapped (see mapping table)
+hook_rate,ml:child_role,speaks,23,0.0485,0.0086,0.0923,0.0542,True,mapped (see mapping table)
+hook_rate,ml:demo_shown,product_feature_demo,26,-0.0788,-0.1117,-0.0421,-0.0758,True,mapped (see mapping table)
+hook_rate,ml:proof_used,clinical_specifications,11,-0.0675,-0.117,-0.0348,-0.0658,False,no post-side equivalent / mirror / not in registry
+hook_rate,ml:persuasion,contrast_with_competitors,21,-0.0748,-0.1073,-0.0398,-0.0724,False,no post-side equivalent / mirror / not in registry
+hook_rate,ml:persuasion,statistics_specificity,38,-0.0596,-0.0896,-0.0136,-0.0734,False,no post-side equivalent / mirror / not in registry
+hook_rate,ml:persuasion,storytelling,50,0.069,0.0344,0.0938,0.0703,True,mapped (see mapping table)
+roas,ml:narratives,kids_overall_growth,47,-1.4765,-2.2968,-0.4341,-0.7453,True,mapped (see mapping table)
+cvr_click,ml:narratives,kids_overall_growth,47,-0.0244,-0.0352,-0.0086,-0.0144,True,mapped (see mapping table)
+hook_rate,ml:narratives,label_check,19,-0.0754,-0.1077,-0.0422,-0.0719,False,no post-side equivalent / mirror / not in registry
+hook_rate,ml:ad_categories,lifestyle_kids_routine,52,0.0485,0.0135,0.0768,0.0501,True,mapped (see mapping table)

@@ -1,0 +1,394 @@
+{
+  "columns": [
+    {
+      "analysis_role": "id_or_delivery_context",
+      "caution": "",
+      "column": "ad_id",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "id_or_delivery_context",
+      "caution": "",
+      "column": "meta_ad_library_id",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "id_or_delivery_context",
+      "caution": "",
+      "column": "video_url",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "id_or_delivery_context",
+      "caution": "",
+      "column": "launch_date",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "id_or_delivery_context",
+      "caution": "only 8 distinct values; looks like snapshot dates, not true stops",
+      "column": "stopped_date",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "id_or_delivery_context",
+      "caution": "disagrees with launch/stopped dates by 1 day for 74/100 ads",
+      "column": "days_live",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "likely measured from video file; unverified",
+      "column": "duration_s",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "language",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "id_or_delivery_context",
+      "caution": "campaign-level text (17 distinct values)",
+      "column": "ad_copy",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "transcript",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "hook_line",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "on_screen_text",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "claims_made",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "hook_type",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "hook_driver",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "hook_delivered_by",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "hook_text_on_screen",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "ad_format",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "story_structure",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "main_benefit",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "performance_style",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "humour",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "creator_type",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "creator_gender",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "creator_age",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "people_on_screen",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "child_on_screen",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "child_age",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "child_role",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "child_in_first_3s",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "see brand_said_aloud",
+      "column": "brand_first_said",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "contradicts brand_first_said in 18/100 ads",
+      "column": "brand_said_aloud",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "product_form",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "product_shown_as",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "demo_shown",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "proof_used",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "persuasion",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "production",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "audio",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "music",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "captions",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "language_mixing",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "first_frame",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "setting",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "cta_type",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "offer",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "narratives",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "predictor",
+      "caution": "",
+      "column": "ad_categories",
+      "source_type": "ai_label"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "spend_inr",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "impressions",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "video_3s_views",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "thruplays",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "link_clicks",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "add_to_carts",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "purchases",
+      "source_type": "platform_reported"
+    },
+    {
+      "analysis_role": "outcome",
+      "caution": "",
+      "column": "revenue_inr",
+      "source_type": "platform_reported"
+    }
+  ],
+  "min_token_support": 8,
+  "multilabel_tokens_analysed": {
+    "ad_categories": [
+      "explainer",
+      "lifestyle_kids_routine",
+      "other",
+      "recipe",
+      "testimonial"
+    ],
+    "child_role": [
+      "consumes_product",
+      "on_screen_silent",
+      "reacts_to_taste",
+      "speaks"
+    ],
+    "demo_shown": [
+      "child_consuming",
+      "live_use",
+      "mixing_prep",
+      "product_feature_demo",
+      "taste_test"
+    ],
+    "narratives": [
+      "fussy_eating",
+      "kids_immunity",
+      "kids_overall_growth",
+      "label_check",
+      "other",
+      "protein_intake",
+      "recipe",
+      "taste_better_than_other_brands"
+    ],
+    "persuasion": [
+      "aesthetic_vibe_appeal",
+      "authority_science",
+      "contrast_with_competitors",
+      "fear_appeal",
+      "humor",
+      "identity_appeal",
+      "social_proof",
+      "statistics_specificity",
+      "storytelling"
+    ],
+    "proof_used": [
+      "child_visible_result",
+      "clinical_specifications",
+      "creator_testimonial",
+      "ingredient_dosage",
+      "ingredient_potency",
+      "scientific_lab_visuals",
+      "texture_demonstration",
+      "texture_sensory_visuals"
+    ]
+  }
+}

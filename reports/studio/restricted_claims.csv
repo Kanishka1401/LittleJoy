@@ -1,0 +1,10 @@
+category,reason,n_ads,example,example_ad_ids
+Immunity claim,No evidence in the supplied files; health-benefit claim.,15,Boosts immunity with 23 vitamins and minerals,"LJ-013, LJ-015, LJ-024, LJ-027"
+'Boost' claim,Implied benefit claim; not substantiated in the files.,4,Boosts immunity with 23 vitamins and minerals,"LJ-013, LJ-024, LJ-078, LJ-082"
+Superlative / exclusivity,Needs documentary substantiation.,8,Little Joys Chocolate Hazelnut Spread sweetened only with jaggery,"LJ-003, LJ-018, LJ-033, LJ-057"
+Third-party testing claim,Certificates are not in the supplied files.,6,Every box provides a QR code linked to an independent lab analytical report verifying nutritional value,"LJ-033, LJ-042, LJ-052, LJ-057"
+Growth / development claim,Health outcome; not substantiated.,1,"Does not make unrealistic height or weight gain promises, designed solely to fill nutritional gaps",LJ-010
+Digestive / gentleness claim,Health claim; not substantiated.,15,Gentle/light on child's stomach,"LJ-002, LJ-015, LJ-023, LJ-024"
+Rating claim,Source unknown.,1,10/10 on both nutrition and taste,LJ-005
+Behavioural outcome claim,Outcome claim; not substantiated.,3,Gets kids to finish milk in two minutes during summer,"LJ-005, LJ-043, LJ-087"
+'Complete' nutrition claim,Overbroad claim.,1,Supports complete physical health,LJ-002

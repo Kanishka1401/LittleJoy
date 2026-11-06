@@ -1,0 +1,328 @@
+{
+  "creator_id": "CR-11",
+  "handle": "raja_choudhary04",
+  "product": "Nutrimix",
+  "product_name": "Little Joys Nutrimix",
+  "variants": {
+    "concept": 0,
+    "hooks": 0,
+    "script": 0,
+    "visuals": 0,
+    "onscreen": 0,
+    "cta": 0
+  },
+  "source": {
+    "concept": "template",
+    "hooks": "template",
+    "script": "template",
+    "visuals": "template",
+    "onscreen": "template",
+    "cta": "template"
+  },
+  "selected_hook": 0,
+  "edited": [],
+  "concept": {
+    "title": "Doodh Time: A Day in Our Ghar",
+    "big_idea": "One episode of his daily-vlog series where Little Joys Nutrimix simply shows up in the morning milk routine. Starts with a candid family moment, mentions the product once with its label line, and keeps the child's reaction real.",
+    "archetype": "Family day-in-the-life vlog (voiceover montage)",
+    "objective": "Attention-stage creative test with this creator. A hypothesis, not a prediction: organic results do not predict paid performance.",
+    "why_fit": [
+      "Creative DNA: Across 20 posts: formats voiceover montage (80%), skit (5%); content lifestyle (65%), day in life (25%); language hindi (40%), english (30%); settings outdoor (30%), indoor home (25%); children on camera 100%; product shown 65%; sponsored 35%.",
+      "Kids' lifestyle / routine content (90% of posts): Routine/lifestyle content is the creator's base; embed the product in an everyday moment. Caution: Post 'lifestyle' is a broad catch-all category.",
+      "Child visible on screen (100% of posts): Build the brief around the creator's own child in the product's routine moment (breakfast, tiffin, milk time). Caution: Ads: the strongest signal is a child in the FIRST 3 s, which posts cannot show (no timing label).",
+      "Attention alignment score 60/100 (AI-labelled posts vs paid-ad hook-rate patterns; organic engagement is not treated as evidence of paid performance)."
+    ],
+    "evidence": [
+      {
+        "kind": "post",
+        "id": "DbDqQdxSETg",
+        "url": "https://www.instagram.com/p/DbDqQdxSETg/",
+        "note": "voiceover_montage; topic: Gritzo SuperMilk nutritional supplement for children; hook: action-oriented, showing children playing on a bed; on-screen: Subah uthte hi, Fir mumma, DHA, Mujhse milne bhi aagya tha, Aur humne bahot saar"
+      },
+      {
+        "kind": "post",
+        "id": "DZZx2TaSua5",
+        "url": "https://www.instagram.com/p/DZZx2TaSua5/",
+        "note": "voiceover_montage; topic: Family moments and daily life; hook: A child blowing into a toy horn; on-screen: DAY 27 🫣 Nani Emotional Ho gyi"
+      },
+      {
+        "kind": "post",
+        "id": "DZxA-yUy39B",
+        "url": "https://www.instagram.com/p/DZxA-yUy39B/",
+        "note": "voiceover_montage; topic: A daily vlog showing family activities, playing cricket, and unboxing toys.; hook: A group of people sitting together in a home setting, looking at the camera.; on-screen: 33 DAY"
+      },
+      {
+        "kind": "post",
+        "id": "DeMkb_KSRFj",
+        "url": "https://www.instagram.com/p/DeMkb_KSRFj/",
+        "note": "skit; topic: A comedic skit about intruders, transitioning into a product promotion for Troovy Foods nutrition mix.; hook: A dramatic, slightly alarming statement about intruders in the home.; on-screen: Aaj Gharme Chor Ghuss Gye Yhe 😑"
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-077",
+        "url": "",
+        "note": "Little Joys ad using 'Kids' lifestyle / routine content'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-014",
+        "url": "",
+        "note": "Little Joys ad using 'Kids' lifestyle / routine content'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-050",
+        "url": "",
+        "note": "Little Joys ad using 'Kids' lifestyle / routine content'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      }
+    ]
+  },
+  "hooks": [
+    {
+      "text": "Guys, aaj subah doodh ke time pe ghar mein itna drama hua. Chalo batata hoon kya hua.",
+      "angle": "story",
+      "on_screen": "AAJ KA DRAMA",
+      "evidence_post": "DbDqQdxSETg",
+      "rationale": "Echoes this creator's real post DbDqQdxSETg (hook style: action-oriented, showing children playing on a bed)."
+    },
+    {
+      "text": "Papa, aaj main doodh ki boss hoon!",
+      "angle": "kid",
+      "on_screen": "DOODH KI BOSS",
+      "evidence_post": "DZxA-yUy39B",
+      "rationale": "Echoes this creator's real post DZxA-yUy39B (hook style: A group of people sitting together in a home setting, looking at the camera.)."
+    },
+    {
+      "text": "Day [[CONFIRM: day number of the vlog series]]. Aur aaj bacche ne ek naya rule bana diya.",
+      "angle": "series",
+      "on_screen": "DAY __",
+      "evidence_post": "DZZx2TaSua5",
+      "rationale": "Echoes this creator's real post DZZx2TaSua5 (hook style: A child blowing into a toy horn)."
+    }
+  ],
+  "cta": {
+    "kind": "link",
+    "spoken": "Agar aapke ghar mein bhi doodh ka yahi drama hota hai, toh details link mein hain: [[CONFIRM: link, code or offer]]. Little Joys ke saath paid partnership.",
+    "on_screen": "Details in link  |  [[CONFIRM: code or offer]]  #ad",
+    "note": "Casual vlog-style CTA; offer is a placeholder."
+  },
+  "tone": {
+    "summary": "Warm, upbeat and conversational: a dad narrating a real morning, with the product as a passing detail.",
+    "delivery": [
+      "Pace: brisk with natural pauses; keep the 'Guys, chalo batata hoon' opener from his sponsored posts.",
+      "Language: Hindi, English only for the product name.",
+      "Candid, unscripted family moments; leave imperfect takes in.",
+      "One product mention with one label line; no formal claims."
+    ],
+    "language": "Hindi",
+    "camera": "Handheld vlog, family in frame",
+    "creator_voice_in_profile": "The creator uses a warm, upbeat, and conversational tone, typical of family-oriented vlogging. He speaks directly to the audience with a focus on storytelling and emotional connection.",
+    "catchphrases_in_profile": "High-energy transitions between family activities; Direct address to the camera by the child; Warm, natural indoor lighting; Candid, unscripted family laughter",
+    "native_in_profile": "A video that starts with a candid, unscripted moment of family interaction or a child playing, followed by a natural, low-pressure mention of a product as part of the daily routine."
+  },
+  "avoid": [
+    {
+      "item": "Any claim that the product treats, prevents or cures anything, or improves immunity, growth, height, weight, brain development or strength.",
+      "reason": "No such claim is verified in the supplied files; several older ads contain them (see restricted claims list).",
+      "source": "global rule"
+    },
+    {
+      "item": "Any number, percentage, multiplier or vitamin count that is not one of the verified product facts for the chosen product.",
+      "reason": "Numeric claims must trace to a fact ID.",
+      "source": "global rule"
+    },
+    {
+      "item": "Superlatives and exclusivity (\"best\", \"only\", \"No. 1\", \"bestseller\", \"loved by 10 lakh moms\").",
+      "reason": "Appear in older ad copy but cannot be substantiated from the files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Comparisons with, or mentions of, other brands or products.",
+      "reason": "Competitor kids-nutrition brands appear in several shortlisted creators' sponsored posts; keep the Little Joys video clean of them.",
+      "source": "global rule"
+    },
+    {
+      "item": "Third-party testing or certification claims (e.g. lab tested, Eurofins).",
+      "reason": "Mentioned in ad copy, but certificates are not part of the supplied files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Scripted taste or eating outcomes (\"kids love it\", \"finishes it in two minutes\"). Film real reactions only.",
+      "reason": "Outcome claims are unverified; scripted reactions would misrepresent what happened.",
+      "source": "global rule"
+    },
+    {
+      "item": "\"Doctor recommended\", \"expert approved\" or any medical-authority endorsement the creator has not personally confirmed.",
+      "reason": "Endorsement must be genuine and disclosed.",
+      "source": "global rule"
+    },
+    {
+      "item": "Age suitability, serving size or dosage statements unless supplied by Little Joys.",
+      "reason": "Not available in the supplied files; left as [[CONFIRM: ...]] placeholders.",
+      "source": "global rule"
+    },
+    {
+      "item": "Omitting the paid-partnership disclosure.",
+      "reason": "Every script ends with a disclosure line; confirm the platform's disclosure label.",
+      "source": "global rule"
+    },
+    {
+      "item": "Studio lighting, formal scripted product claims or a frame without family (flagged as foreign to his style).",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Any competitor brand: his earlier sponsored posts feature other kids-nutrition brands; confirm exclusivity before shooting.",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Scripting the child's reaction or a taste verdict.",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Other brands visible in this creator's posts (AI-labelled): D.Mart, Domino's, Gritzo, LuvLap, Marvel, Puma, SKY, Spider-Man, StayVista, Tata. Do not show or mention any in the Little Joys video.",
+      "reason": "Exclusivity and clean-brand framing; verify contracts.",
+      "source": "post labels"
+    },
+    {
+      "item": "Foreign-feeling styles per profile: High-production studio lighting, overly formal or scripted product claims, and a lack of family presence in the frame.",
+      "reason": "From the creator's AI-generated profile.",
+      "source": "creator profile (AI-generated)"
+    }
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "voice": "Guys, aaj subah doodh ke time pe ghar mein itna drama hua. Chalo batata hoon kya hua.",
+      "visual": "Handheld phone shot in warm morning light; the child is already in frame near the milk glass; creator talks to camera mid-motion (high-energy transitions, as in his vlogs).",
+      "text": "AAJ KA DRAMA",
+      "start": 0,
+      "end": 5,
+      "est_speech_s": 6.5,
+      "caption": "Guys, aaj subah doodh ke time pe ghar mein itna drama hua. Chalo batata hoon kya hua."
+    },
+    {
+      "n": 2,
+      "voice": "Subah uthte hi sabse pehle bacche ka doodh, yeh humare ghar ka routine hai. Aur roz ki tarah thoda naatak bhi.",
+      "visual": "Wide kitchen shot with family moving around; unscripted laughter stays in the edit.",
+      "text": "Subah ka routine",
+      "start": 5,
+      "end": 13,
+      "est_speech_s": 8.1,
+      "caption": "Subah uthte hi sabse pehle bacche ka doodh, yeh humare ghar ka routine hai. Aur roz ki tarah thoda naatak bhi."
+    },
+    {
+      "n": 3,
+      "voice": "Mummy ne Little Joys Nutrimix mix kiya. Pack par \"Contains ragi, bajra, almonds, and walnuts\" likha hai. Hum bas try kar rahe hain.",
+      "visual": "One continuous handheld shot of the Nutrimix being mixed into milk; pack label held to camera for 2 seconds so the quoted line is legible.",
+      "text": "\"Contains ragi, bajra, almonds, and walnuts\"",
+      "start": 13,
+      "end": 23,
+      "est_speech_s": 8.8,
+      "caption": "Mummy ne Little Joys Nutrimix mix kiya. Pack par \"Contains ragi, bajra, almonds, and walnuts\" likha hai. Hum bas try kar rahe hain."
+    },
+    {
+      "n": 4,
+      "voice": "Bacche ka reaction aap khud dekh lijiye. Maine kuch bolne ko nahi kaha.",
+      "visual": "Child goes about the morning with the glass nearby; creator laughs off-camera.",
+      "text": "Reaction: bilkul asli",
+      "start": 23,
+      "end": 32,
+      "est_speech_s": 5.0,
+      "caption": "Bacche ka reaction aap khud dekh lijiye. Maine kuch bolne ko nahi kaha."
+    },
+    {
+      "n": 5,
+      "voice": "Agar aapke ghar mein bhi doodh ka yahi drama hota hai, toh details link mein hain: [[CONFIRM: link, code or offer]]. Little Joys ke saath paid partnership.",
+      "visual": "Family at the table, creator waves to camera; end card with link/code placeholder and disclosure.",
+      "text": "Details in link  |  [[CONFIRM: code or offer]]  #ad",
+      "start": 32,
+      "end": 38,
+      "est_speech_s": 10.0,
+      "caption": "Agar aapke ghar mein bhi doodh ka yahi drama hota hai, toh details link mein hain: [[link, code or offer]]. Little Joys ke saath paid partnership."
+    }
+  ],
+  "timing": {
+    "total_s": 38,
+    "est_speech_s": 38.5,
+    "pace_words_per_s": 2.6
+  },
+  "post_caption": "Doodh time ka hamara routine. Pack par jo likha hai, woh video mein dikhaya hai. [[CONFIRM: variant and age band]]  #ad #paidpartnership [[CONFIRM: brand handle to tag]]",
+  "facts_used": [
+    "N_INGR"
+  ],
+  "fact_table": [
+    {
+      "id": "N_INGR",
+      "text": "Contains ragi, bajra, almonds, and walnuts",
+      "role": "ingredients",
+      "ad_ids": [
+        "LJ-027",
+        "LJ-042",
+        "LJ-089"
+      ],
+      "n_ads": 3,
+      "status": "brand-stated (needs brand confirmation)"
+    }
+  ],
+  "placeholders": [
+    "[[CONFIRM: brand handle to tag]]",
+    "[[CONFIRM: code or offer]]",
+    "[[CONFIRM: day number of the vlog series]]",
+    "[[CONFIRM: link, code or offer]]",
+    "[[CONFIRM: variant and age band]]"
+  ],
+  "validation": [
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: day number of the vlog series]]",
+      "message": "Needs input from Little Joys.",
+      "where": "hook[3]"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link, code or offer]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.voice"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: code or offer]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.text"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link, code or offer]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.spoken"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: code or offer]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.on_screen"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: variant and age band]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: brand handle to tag]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    }
+  ]
+}

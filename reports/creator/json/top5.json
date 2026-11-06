@@ -1,0 +1,207 @@
+[
+  {
+    "composite_score": 72.55219298245615,
+    "confidence": "High",
+    "creator_id": "CR-03",
+    "dimension_scores": {
+      "audience_fit": 100.0,
+      "authenticity": 66.3157894736842,
+      "content_relevance": 87.5,
+      "creative_compatibility": 54.0,
+      "engagement_quality": 58.070175438596486
+    },
+    "evidence_coverage": 0.875,
+    "explanation": "Composite 72.6/100 (cohort mean 59.4). Strongest vs cohort: content relevance 88 (cohort 51); audience fit 100 (cohort 75). 75% of posts combine nutrition/feeding with children; relevance mean 0.88. Median video ER 3.44% (full history, n=20), 3.44% in last 90 days (n=18). Posts ~3.7/30 d; 75% of posts show children; 10% sponsored. Weakest vs cohort: creative compatibility (54 vs cohort 62). No demographic data: audience fit uses the content-targeting proxy only (not penalised; lowers coverage). Evidence coverage 88%; confidence High; P(top-5) 100% under post resampling.",
+    "flags": "no_demographics(audience fit from content proxy only); sponsored_vs_organic_ER_not_estimable; competitor_nutrition_brand_in_1_posts",
+    "handle": "ekamichildcare",
+    "rank": 1,
+    "strongest_components": [
+      {
+        "component": "on_camera_presence",
+        "dimension": "authenticity",
+        "score": 100.0
+      },
+      {
+        "component": "language_fit",
+        "dimension": "creative_compatibility",
+        "score": 100.0
+      },
+      {
+        "component": "format_fit",
+        "dimension": "creative_compatibility",
+        "score": 100.0
+      }
+    ],
+    "weighted_contributions": {
+      "audience_fit": 15.0,
+      "authenticity": 13.263157894736842,
+      "content_relevance": 21.875,
+      "creative_compatibility": 10.8,
+      "engagement_quality": 11.614035087719298
+    }
+  },
+  {
+    "composite_score": 70.91180442515224,
+    "confidence": "Medium",
+    "creator_id": "CR-11",
+    "dimension_scores": {
+      "audience_fit": 90.0,
+      "authenticity": 76.56578947368422,
+      "content_relevance": 73.0,
+      "creative_compatibility": 74.97422680412372,
+      "engagement_quality": 44.26900584795321
+    },
+    "evidence_coverage": 0.915,
+    "explanation": "Composite 70.9/100 (cohort mean 59.4). Strongest vs cohort: content relevance 73 (cohort 51); audience fit 90 (cohort 75). 55% of posts combine nutrition/feeding with children; relevance mean 0.73. Median video ER 4.32% (full history, n=19), 3.05% in last 90 days (n=4). Posts ~4.1/30 d; 100% of posts show children; 35% sponsored. Weakest vs cohort: engagement quality (44 vs cohort 50). No demographic data: audience fit uses the content-targeting proxy only (not penalised; lowers coverage). Evidence coverage 92%; confidence Medium; P(top-5) 78% under post resampling.",
+    "flags": "no_demographics(audience fit from content proxy only); competitor_nutrition_brand_in_2_posts",
+    "handle": "raja_choudhary04",
+    "rank": 2,
+    "strongest_components": [
+      {
+        "component": "child_presence",
+        "dimension": "creative_compatibility",
+        "score": 100.0
+      },
+      {
+        "component": "sponsored_vs_organic_er",
+        "dimension": "authenticity",
+        "score": 100.0
+      },
+      {
+        "component": "format_fit",
+        "dimension": "creative_compatibility",
+        "score": 89.81099656357388
+      }
+    ],
+    "weighted_contributions": {
+      "audience_fit": 13.5,
+      "authenticity": 15.313157894736845,
+      "content_relevance": 18.25,
+      "creative_compatibility": 14.994845360824744,
+      "engagement_quality": 8.853801169590643
+    }
+  },
+  {
+    "composite_score": 68.50135346958461,
+    "confidence": "High",
+    "creator_id": "CR-02",
+    "dimension_scores": {
+      "audience_fit": 90.0,
+      "authenticity": 100.0,
+      "content_relevance": 42.00000000000001,
+      "creative_compatibility": 65.10910652920961,
+      "engagement_quality": 57.39766081871345
+    },
+    "evidence_coverage": 0.865,
+    "explanation": "Composite 68.5/100 (cohort mean 59.4). Strongest vs cohort: authenticity 100 (cohort 64); audience fit 90 (cohort 75). 20% of posts combine nutrition/feeding with children; relevance mean 0.42. Median video ER 4.84% (full history, n=19), 4.79% in last 90 days (n=18). Posts ~6.7/30 d; 40% of posts show children; 0% sponsored. Weakest vs cohort: content relevance (42 vs cohort 51). No demographic data: audience fit uses the content-targeting proxy only (not penalised; lowers coverage). Evidence coverage 86%; confidence High; P(top-5) 74% under post resampling.",
+    "flags": "no_demographics(audience fit from content proxy only); sponsored_vs_organic_ER_not_estimable",
+    "handle": "livesimply_withkripa",
+    "rank": 3,
+    "strongest_components": [
+      {
+        "component": "er_consistency",
+        "dimension": "engagement_quality",
+        "score": 100.0
+      },
+      {
+        "component": "on_camera_presence",
+        "dimension": "authenticity",
+        "score": 100.0
+      },
+      {
+        "component": "language_fit",
+        "dimension": "creative_compatibility",
+        "score": 100.0
+      }
+    ],
+    "weighted_contributions": {
+      "audience_fit": 13.5,
+      "authenticity": 20.0,
+      "content_relevance": 10.500000000000002,
+      "creative_compatibility": 13.021821305841923,
+      "engagement_quality": 11.47953216374269
+    }
+  },
+  {
+    "composite_score": 68.16904804967746,
+    "confidence": "High",
+    "creator_id": "CR-05",
+    "dimension_scores": {
+      "audience_fit": 90.0,
+      "authenticity": 75.35087719298245,
+      "content_relevance": 43.00000000000001,
+      "creative_compatibility": 68.04553264604812,
+      "engagement_quality": 76.19883040935673
+    },
+    "evidence_coverage": 0.8475,
+    "explanation": "Composite 68.2/100 (cohort mean 59.4). Strongest vs cohort: engagement quality 76 (cohort 50); audience fit 90 (cohort 75). 5% of posts combine nutrition/feeding with children; relevance mean 0.43. Median video ER 6.25% (full history, n=18), 6.06% in last 90 days (n=16). Posts ~1.1/30 d; 100% of posts show children; 8% sponsored. Weakest vs cohort: content relevance (43 vs cohort 51). No demographic data: audience fit uses the content-targeting proxy only (not penalised; lowers coverage). Evidence coverage 85%; confidence High; P(top-5) 68% under post resampling.",
+    "flags": "no_demographics(audience fit from content proxy only); sponsored_vs_organic_ER_not_estimable; competitor_nutrition_brand_in_1_posts",
+    "handle": "sia_3vedi",
+    "rank": 4,
+    "strongest_components": [
+      {
+        "component": "child_presence",
+        "dimension": "creative_compatibility",
+        "score": 100.0
+      },
+      {
+        "component": "on_camera_presence",
+        "dimension": "authenticity",
+        "score": 100.0
+      },
+      {
+        "component": "language_fit",
+        "dimension": "creative_compatibility",
+        "score": 92.5
+      }
+    ],
+    "weighted_contributions": {
+      "audience_fit": 13.5,
+      "authenticity": 15.070175438596491,
+      "content_relevance": 10.750000000000002,
+      "creative_compatibility": 13.609106529209624,
+      "engagement_quality": 15.239766081871347
+    }
+  },
+  {
+    "composite_score": 67.96491228070175,
+    "confidence": "High",
+    "creator_id": "CR-01",
+    "dimension_scores": {
+      "audience_fit": 100.0,
+      "authenticity": 71.22807017543859,
+      "content_relevance": 82.0,
+      "creative_compatibility": 62.5,
+      "engagement_quality": 28.596491228070175
+    },
+    "evidence_coverage": 0.875,
+    "explanation": "Composite 68.0/100 (cohort mean 59.4). Strongest vs cohort: content relevance 82 (cohort 51); audience fit 100 (cohort 75). 65% of posts combine nutrition/feeding with children; relevance mean 0.82. Median video ER 1.24% (full history, n=20), 1.03% in last 90 days (n=17). Posts ~4.7/30 d; 85% of posts show children; 10% sponsored. Weakest vs cohort: engagement quality (29 vs cohort 50). No demographic data: audience fit uses the content-targeting proxy only (not penalised; lowers coverage). Evidence coverage 88%; confidence High; P(top-5) 68% under post resampling.",
+    "flags": "no_demographics(audience fit from content proxy only); sponsored_vs_organic_ER_not_estimable",
+    "handle": "drgarima_mehta",
+    "rank": 5,
+    "strongest_components": [
+      {
+        "component": "on_camera_presence",
+        "dimension": "authenticity",
+        "score": 100.0
+      },
+      {
+        "component": "language_fit",
+        "dimension": "creative_compatibility",
+        "score": 100.0
+      },
+      {
+        "component": "format_fit",
+        "dimension": "creative_compatibility",
+        "score": 100.0
+      }
+    ],
+    "weighted_contributions": {
+      "audience_fit": 15.0,
+      "authenticity": 14.24561403508772,
+      "content_relevance": 20.5,
+      "creative_compatibility": 12.5,
+      "engagement_quality": 5.719298245614035
+    }
+  }
+]

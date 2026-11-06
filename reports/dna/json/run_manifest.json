@@ -1,0 +1,21 @@
+{
+  "inputs_sha256": {
+    "creatives": "59e0c90ca3dd2476508d1cf74a5e2aa465bf64ed95c685c3a81f06300c574454",
+    "creators": "11a8696b91e80e7316a60e1a4ed691e709c71567d44283598917e79b07a821ba",
+    "posts": "9f0c9a768d40b89fc3d61c476f69031af9fc710f6adcb27d529c283a58520434",
+    "ranking": "889d7de94d356ef82419b729c56b51124ddf6777992e43bfe852263931e910c6",
+    "stability": "c66ef4c52e34832594ac8fb4c84ed32d80b714d970021e5e8c317585d43d9f37"
+  },
+  "outputs_sha256": {
+    "ad_success_patterns.csv": "8ce23acf0449163fde34f75ebd5d7d65a5a6aa0fae4f3398285d9e89f80f18b8",
+    "attribute_mapping.csv": "2493d93a6fd63842653d1dc07e449c792261d85cbcc71a98b7e17a71a9c67e5b",
+    "config.json": "619510a3553550a744bc74523f4fcc3ddc0af03e053603f12479585dd7fa38d1",
+    "creator_dna_profiles.json": "bdc2ac5b924249c2af8a14c9821100c15e6c283e92a7cbe702b6a782a31eeb1a",
+    "creator_dna_scores.csv": "abb685b8106c16cf3f1dc433aad4a3ba18a37512119760c1df36b1f4bb828dcd",
+    "creator_feature_alignment.csv": "6c7c23419b2f36cb61291070c38a66e9f04b60a7e3d6aed75ba0ccd857e5e84d",
+    "evidence_ads.csv": "4b01f0fa1e727d261c185e3faff3d6287f191bb3cc6ef55742db4ffb7a8961d5",
+    "evidence_posts.csv": "1813367b6f64d643e4cfa74fd59df1dc306702c7cc009e5d10009ccf30051e15",
+    "stable_signals_mapping_status.csv": "a38b36f048d1c10b91d0be0770eb16b69a70550189dd785f68591b1c4da40a24",
+    "success_cohort_prevalence.csv": "e4518a2b4c09f73d74399f68db483204a4998bf7eaf5c355bf5193f8936c5353"
+  }
+}

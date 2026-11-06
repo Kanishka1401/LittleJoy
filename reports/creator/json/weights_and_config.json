@@ -1,0 +1,125 @@
+{
+  "ad_fit_saturation": 0.15,
+  "as_of": "2026-10-27",
+  "bootstrap_B": 300,
+  "components": {
+    "authenticity": [
+      {
+        "metric": "view_to_follower",
+        "name": "reach_to_follower",
+        "transform": "pct",
+        "weight": 0.35
+      },
+      {
+        "metric": "sponsored_share",
+        "name": "sponsorship_balance",
+        "transform": "sponsor_balance",
+        "weight": 0.25
+      },
+      {
+        "metric": "sponsored_er_ratio",
+        "name": "sponsored_vs_organic_er",
+        "transform": "ratio",
+        "weight": 0.25
+      },
+      {
+        "metric": "on_camera_share",
+        "name": "on_camera_presence",
+        "transform": "share",
+        "weight": 0.15
+      }
+    ],
+    "content_relevance": [
+      {
+        "metric": "relevance_mean",
+        "name": "post_relevance",
+        "transform": "share",
+        "weight": 1.0
+      }
+    ],
+    "creative_compatibility": [
+      {
+        "metric": "child_share",
+        "name": "child_presence",
+        "transform": "share",
+        "weight": 0.2
+      },
+      {
+        "metric": "format_fit_mean",
+        "name": "format_fit",
+        "transform": "share",
+        "weight": 0.25
+      },
+      {
+        "metric": "story_share",
+        "name": "storytelling",
+        "transform": "share",
+        "weight": 0.15
+      },
+      {
+        "metric": "setting_fit_mean",
+        "name": "setting_fit",
+        "transform": "share",
+        "weight": 0.1
+      },
+      {
+        "metric": "language_fit_mean",
+        "name": "language_fit",
+        "transform": "share",
+        "weight": 0.1
+      },
+      {
+        "metric": "product_share",
+        "name": "product_integration",
+        "transform": "share",
+        "weight": 0.2
+      }
+    ],
+    "engagement_quality": [
+      {
+        "metric": "er_full_median",
+        "name": "er_full_history",
+        "transform": "pct",
+        "weight": 0.3
+      },
+      {
+        "metric": "er_recent_median",
+        "name": "er_recent_window",
+        "transform": "pct",
+        "weight": 0.2
+      },
+      {
+        "metric": "comment_rate_median",
+        "name": "comment_rate",
+        "transform": "pct",
+        "weight": 0.15
+      },
+      {
+        "metric": "depth_median",
+        "name": "interaction_depth",
+        "transform": "pct",
+        "weight": 0.2
+      },
+      {
+        "metric": "er_robust_cv",
+        "name": "er_consistency",
+        "transform": "inv_pct",
+        "weight": 0.15
+      }
+    ]
+  },
+  "demo_blend": 0.5,
+  "demo_blend_platform_mismatch": 0.25,
+  "dimension_weights": {
+    "audience_fit": 0.15,
+    "authenticity": 0.2,
+    "content_relevance": 0.25,
+    "creative_compatibility": 0.2,
+    "engagement_quality": 0.2
+  },
+  "min_recent_videos": 4,
+  "min_sponsored_videos": 3,
+  "recent_days": 90,
+  "seed": 20261105,
+  "sponsor_saturation": 0.5
+}

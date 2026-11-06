@@ -1,0 +1,90 @@
+dataset,check,severity,n_affected,detail,ids
+ads,ad_format_missing,WARN,2,ad_format null,"LJ-001,LJ-035"
+ads,brand_first_said_missing,WARN,2,brand_first_said null,"LJ-001,LJ-035"
+ads,brand_not_said_but_first_said_under_3s,WARN,18,contradictory brand-mention labels (brand_first_said may include on-screen brand?),"LJ-005,LJ-015,LJ-020,LJ-024,LJ-031,LJ-032,LJ-043,LJ-049,LJ-060,LJ-062,LJ-063,LJ-071,LJ-074,LJ-080,LJ-083"
+ads,child_role_missing,WARN,2,child_role null,"LJ-001,LJ-035"
+ads,creator_age_missing,WARN,1,creator_age null,LJ-004
+ads,days_live_vs_dates_mismatch,WARN,74,days_live != (stopped-launch).days; check inclusive/exclusive counting,"LJ-001,LJ-002,LJ-003,LJ-004,LJ-005,LJ-006,LJ-007,LJ-008,LJ-009,LJ-011,LJ-012,LJ-014,LJ-016,LJ-017,LJ-018"
+ads,duplicate_transcripts,WARN,6,identical transcript,"LJ-003,LJ-036,LJ-056,LJ-059,LJ-073,LJ-093"
+ads,hook_type_missing,WARN,2,hook_type null,"LJ-001,LJ-035"
+ads,low_purchase_ads,WARN,10,purchases<10,"LJ-011,LJ-039,LJ-049,LJ-054,LJ-058,LJ-070,LJ-083,LJ-089,LJ-094,LJ-100"
+ads,low_spend_ads,WARN,10,spend<5000,"LJ-030,LJ-039,LJ-049,LJ-054,LJ-058,LJ-070,LJ-072,LJ-083,LJ-094,LJ-100"
+ads,same_video_multiple_ad_ids,WARN,6,same video_url under >1 ad_id: aggregate to creative level,"LJ-003,LJ-036,LJ-056,LJ-059,LJ-073,LJ-093"
+ads,stopped_date_clustered,WARN,1,"only 8 distinct stopped_date values for 100 ads — likely export/snapshot dates, not true stop dates",
+ads,story_structure_missing,WARN,2,story_structure null,"LJ-001,LJ-035"
+ads,zero_purchase_ads,WARN,2,ROAS=0 / CPA undefined,"LJ-054,LJ-089"
+ads,ad_copy_missing,INFO,12,ad_copy null,
+ads,ad_copy_shared_across_ads,INFO,83,17 distinct ad_copy values: copy is not a creative-level variable,
+ads,ad_id_unique,INFO,0,OK,
+ads,add_to_carts_non_negative_non_null,INFO,0,OK,
+ads,child_none_but_child_age,INFO,0,OK,
+ads,column_count_as_expected,INFO,0,OK,
+ads,declared_columns_present,INFO,0,OK,
+ads,exact_duplicate_rows,INFO,0,OK,
+ads,funnel_add_to_carts_le_link_clicks,INFO,0,OK,
+ads,funnel_link_clicks_le_impressions,INFO,0,OK,
+ads,funnel_purchases_le_add_to_carts,INFO,0,OK,
+ads,funnel_thruplays_le_video_3s_views,INFO,0,OK,
+ads,funnel_video_3s_views_le_impressions,INFO,0,OK,
+ads,impressions_non_negative_non_null,INFO,0,OK,
+ads,link_clicks_non_negative_non_null,INFO,0,OK,
+ads,meta_id_unique,INFO,0,OK,
+ads,no_creator_key,INFO,100,ads.csv has no creator_id/handle: ads cannot be joined to creators.csv,
+ads,no_speech_but_speaks_role,INFO,0,OK,
+ads,purchases_non_negative_non_null,INFO,0,OK,
+ads,purchases_without_revenue,INFO,0,OK,
+ads,revenue_inr_non_negative_non_null,INFO,0,OK,
+ads,revenue_without_purchases,INFO,0,OK,
+ads,row_count_as_expected,INFO,0,OK,
+ads,short_run_ads(<=3d),INFO,16,days_live<=3: unstable,"LJ-001,LJ-011,LJ-012,LJ-013,LJ-050,LJ-054,LJ-058,LJ-070,LJ-073,LJ-077,LJ-082,LJ-083,LJ-087,LJ-088,LJ-094"
+ads,spend_inr_non_negative_non_null,INFO,0,OK,
+ads,spend_vs_days_live_spearman,INFO,100,rho=0.71 — spend is largely a function of run time,
+ads,stopped_before_launch,INFO,0,OK,
+ads,thruplays_non_negative_non_null,INFO,0,OK,
+ads,video_3s_views_non_negative_non_null,INFO,0,OK,
+audience,coverage,WARN,3,"audience data for 3/20 creators (CR-14, CR-15, CR-20) — cannot be used for the other 17",
+audience,platform_matches_profile_url,WARN,1,audience platform differs from the Instagram profile_url in creators.csv,CR-14
+audience,brands_in_past_year_missing,INFO,1,null — unknown vs none,CR-14
+audience,column_count_as_expected,INFO,0,OK,
+audience,creator_fk_valid,INFO,0,OK,
+audience,declared_columns_present,INFO,0,OK,
+audience,exact_duplicate_rows,INFO,0,OK,
+audience,gender_pct_sums_to_100,INFO,0,OK,
+audience,row_count_as_expected,INFO,0,OK,
+creators,audience_read_has_no_comment_evidence,WARN,20,20/20 audience_read blobs say comment_evidence='none' → field carries no information,
+creators,creators_with_fewer_posts,WARN,1,fewer posts in sample → noisier,CR-18
+creators,bio_missing,INFO,3,bio null,"CR-14,CR-16,CR-18"
+creators,column_count_as_expected,INFO,0,OK,
+creators,creator_id_unique,INFO,0,OK,
+creators,declared_columns_present,INFO,0,OK,
+creators,exact_duplicate_rows,INFO,0,OK,
+creators,followers_zero_or_negative,INFO,0,OK,
+creators,handle_unique,INFO,0,OK,
+creators,persona_not_unique,INFO,1,persona labels repeat/near-duplicate,
+creators,posts_in_file_matches_posts_csv,INFO,0,OK,
+creators,row_count_as_expected,INFO,0,OK,
+creators,verified_values,INFO,0,OK,
+posts,language_label_variants,WARN,1,"13 spellings of language (e.g. 'Hindi/English', 'Hindi and English', 'English and Hindi', 'telugu'/'Telugu') → normalise",
+posts,observation_window_days,WARN,20,per-creator span 33–1670 days for ~20 posts each → rates not comparable without a common window,
+posts,quality_score_range,WARN,1,"production_quality_1to5 uses only [2, 3, 4, 5]",
+posts,sponsored_without_brand,WARN,1,sponsored but no brand listed,https://www.instagram.com/p/DdjIM4HyJLO/
+posts,transcript_coverage_low,WARN,1,transcript for only 29% of posts,
+posts,transcript_language_corrupted,WARN,1,transcript text leaked into transcript_language,https://www.instagram.com/p/DeM24o1yzmV/
+posts,caption_missing,INFO,4,caption null,
+posts,child_ages_vs_children_on_camera,INFO,0,OK,
+posts,column_count_as_expected,INFO,0,OK,
+posts,creator_fk_valid,INFO,0,OK,
+posts,declared_columns_present,INFO,0,OK,
+posts,duplicate_captions,INFO,3,same caption on >1 post,"https://www.instagram.com/p/Ddx6NsgoaJd/,https://www.instagram.com/p/DdnhLvso2Xd/,https://www.instagram.com/p/DdierW0o-zz/"
+posts,exact_duplicate_rows,INFO,0,OK,
+posts,handle_matches_creator,INFO,0,OK,
+posts,likes_gt_plays,INFO,0,OK,
+posts,little_joys_posts,INFO,1,posts already showing Little Joys (check case variants),https://www.instagram.com/p/DL9l9X6MNU8/
+posts,negative_counts,INFO,0,OK,
+posts,plays_missing_for_video,INFO,0,OK,
+posts,plays_missing_non_video,INFO,39,carousel/photo have no plays → exclude from play-based rates,
+posts,post_url_unique,INFO,0,OK,
+posts,posted_on_in_future,INFO,0,OK,
+posts,row_count_as_expected,INFO,0,OK,
+posts,sponsored_unclear,INFO,9,is_sponsored='unclear',"https://www.instagram.com/p/DeE1gIrklNB/,https://www.instagram.com/p/Dd8-7djEq0c/,https://www.instagram.com/p/DdoUcYzpAJ9/,https://www.instagram.com/p/Dd85MMDsUQE/,https://www.instagram.com/p/DcnlKv8z6x5/,https://www.instagram.com/p/DctdPuKTUKb/,https://www.instagram.com/p/DcBhjPTz1NY/,https://www.instagram.com/p/DboDvIbyqiL/,https://www.instagram.com/p/Dbe8q0yRBfS/"
+posts,transcript_on_non_video,INFO,0,OK,

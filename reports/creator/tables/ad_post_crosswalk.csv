@@ -1,0 +1,23 @@
+post_field,post_value,ad_field,ad_value,ad_share,fit_value,note
+content_form,voiceover_montage,ad_format,voiceover_montage,0.3608,1.0,mapped
+content_form,piece_to_camera,ad_format,explainer_to_camera,0.2474,1.0,mapped
+content_form,skit,ad_format,skit,0.1443,0.9622,mapped
+content_form,demo_or_haul,performance_style,demo_walkthrough,0.2474,1.0,mapped
+content_form,interview,ad_format,podcast_interview,0.0309,0.2062,mapped
+setting (normalised),kitchen,setting,kitchen,0.2887,1.0,mapped
+setting (normalised),indoor_home,setting,indoor_home,0.4227,1.0,mapped
+setting (normalised),studio,setting,studio,0.0619,0.4124,mapped
+setting (normalised),retail_store,setting,retail_store,0.0722,0.4811,mapped
+setting (normalised),outdoor,setting,outdoor,0.0412,0.2749,mapped
+children_on_camera,yes,child_on_screen,!= none,0.6289,,mapped; binary share of posts (no saturation)
+content_form/content_type/text cues,narrative,story_structure/performance_style,routine|problem_agitate_solve|family_skit|day_in_life|testimonial|storytelling,0.6907,,mapped; binary share of posts
+language (normalised),english/hindi/hinglish/ad-used regional,language,same,,1.0,mapped; Gujarati/Telugu/no-speech = 0.5 (no LJ ad evidence)
+product_shown,yes,(no direct ad equivalent),,,,proxy for comfort with product content; not validated
+content_form,still_or_carousel,(none),,,0.0,NO EQUIVALENT in ad vocabulary -> fit 0
+content_form,music_edit,(none),,,0.0,NO EQUIVALENT in ad vocabulary -> fit 0
+content_form,reaction,(none),,,0.0,NO EQUIVALENT in ad vocabulary -> fit 0
+content_form,event_footage,(none),,,0.0,NO EQUIVALENT in ad vocabulary -> fit 0
+content_form,news_package,(none),,,0.0,NO EQUIVALENT in ad vocabulary -> fit 0
+content_form,other,(none),,,0.0,NO EQUIVALENT in ad vocabulary -> fit 0
+setting (normalised),clinical/vehicle/other,(none),,,0.0,NO EQUIVALENT in ad vocabulary -> fit 0
+production_quality_1to5,-,production,ugc/semi_pro/studio,,,NOT USED: scales are not comparable and ad analysis found no clear UGC/studio effect

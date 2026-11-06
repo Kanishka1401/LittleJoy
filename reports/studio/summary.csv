@@ -1,0 +1,6 @@
+creator_id,handle,product,archetype,total_s,est_speech_s,claim_errors,placeholders,facts_used
+CR-03,ekamichildcare,Nutrimix,Calm clinic consult (label walk-through),43,35.7,0,4,N_INGR;N_NOARTSW;N_SWEET
+CR-11,raja_choudhary04,Nutrimix,Family day-in-the-life vlog (voiceover montage),38,38.5,0,5,N_INGR
+CR-02,livesimply_withkripa,Proteinmix,Multi-character domestic skit,40,33.9,0,4,P_MEALS;P_NOTASTE
+CR-05,sia_3vedi,Nutrimix,Child-performer bargaining sketch with adult co-star,39,27.1,0,3,N_SWEET
+CR-01,drgarima_mehta,Proteinmix,Doctor label-check (split-screen),40,35.9,0,6,P_PROT;P_SOURCES;P_SUGAR

@@ -1,0 +1,16 @@
+variant,form_a,form_b,roas_diff_a_minus_b,lo,hi,n_a,n_b
+creative_all,gummies,milk_mix_powder,-0.890932,-1.91207,0.0440317,22,50
+creative_all,gummies,other,-0.0261964,-0.595514,0.30177,22,25
+creative_all,milk_mix_powder,other,0.864735,-0.226494,1.91664,50,25
+creative_excl_LJ004,gummies,milk_mix_powder,-0.296087,-0.747175,0.159918,22,49
+creative_excl_LJ004,gummies,other,-0.0261964,-0.58757,0.295372,22,25
+creative_excl_LJ004,milk_mix_powder,other,0.26989,-0.398875,0.761471,49,25
+creative_min_evidence,gummies,milk_mix_powder,-1.10938,-2.06472,-0.191703,18,46
+creative_min_evidence,gummies,other,-0.0299682,-0.590424,0.286115,18,21
+creative_min_evidence,milk_mix_powder,other,1.07941,-0.0533078,2.02939,46,21
+ad_all,gummies,milk_mix_powder,-0.890932,-1.92209,0.0464201,23,51
+ad_all,gummies,other,-0.0261964,-0.604974,0.301657,23,26
+ad_all,milk_mix_powder,other,0.864735,-0.264097,1.84406,51,26
+ad_excl_LJ004,gummies,milk_mix_powder,-0.296087,-0.765456,0.147103,23,50
+ad_excl_LJ004,gummies,other,-0.0261964,-0.566069,0.289493,23,26
+ad_excl_LJ004,milk_mix_powder,other,0.26989,-0.407837,0.784747,50,26

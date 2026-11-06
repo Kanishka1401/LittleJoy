@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "ad_all": {
+      "n_units": 100,
+      "note": "comparison: 100 ads as delivered (3 videos counted twice)",
+      "unit": "ad"
+    },
+    "ad_excl_LJ004": {
+      "n_units": 99,
+      "note": "comparison: 100 ads without LJ-004",
+      "unit": "ad"
+    },
+    "creative_all": {
+      "n_units": 97,
+      "note": "PRIMARY: 97 unique creatives (duplicate-video ads collapsed)",
+      "unit": "creative"
+    },
+    "creative_brand_consistent": {
+      "n_units": 79,
+      "note": "brand attributes only: creatives without contradictory brand labels",
+      "unit": "creative"
+    },
+    "creative_excl_LJ004": {
+      "n_units": 96,
+      "note": "sensitivity: primary without LJ-004 (30.3% of revenue)",
+      "unit": "creative"
+    },
+    "creative_min_evidence": {
+      "n_units": 85,
+      "note": "sensitivity: creatives with spend>=5000 and purchases>=10",
+      "unit": "creative"
+    }
+  }
+}

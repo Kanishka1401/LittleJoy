@@ -1,0 +1,261 @@
+creator_id,feature_id,feature,stage,metric,direction,n_posts_labelled,n_posts_with_feature,prevalence,alignment,mapping_quality,scored_pattern,ad_status,evidence_type
+CR-01,child_present,Child visible on screen,attention,hook_rate,+,20,17,0.85,0.85,direct,True,stable_candidate,post_ai_label
+CR-01,child_present,Child visible on screen,purchase,cvr_click,+,20,17,0.85,0.85,direct,False,no_clear_effect,post_ai_label
+CR-01,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-01,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-01,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,19,0.95,0.05,approximate,True,stable_candidate,post_ai_label
+CR-01,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,1,0.05,0.95,direct,False,directional_only,post_ai_label
+CR-01,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-01,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-01,storytelling,Storytelling / narrative,attention,hook_rate,+,20,2,0.1,0.1,approximate,True,stable_candidate,rule_derived
+CR-01,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,post_ai_label
+CR-01,english_only,English-only language,attention,hook_rate,−,20,20,1.0,0.0,approximate,True,stable_candidate,post_ai_label
+CR-01,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-01,growth_claim,'Overall growth' narrative,purchase,roas,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-02,child_present,Child visible on screen,attention,hook_rate,+,20,8,0.4,0.4,direct,True,stable_candidate,post_ai_label
+CR-02,child_present,Child visible on screen,purchase,cvr_click,+,20,8,0.4,0.4,direct,False,no_clear_effect,post_ai_label
+CR-02,skit,Skit format,attention,hook_rate,+,20,17,0.85,0.85,direct,True,stable_candidate,post_ai_label
+CR-02,skit,Skit format,purchase,cvr_click,−,20,17,0.85,0.15,direct,False,directional_only,post_ai_label
+CR-02,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,0,0.0,1.0,approximate,True,stable_candidate,post_ai_label
+CR-02,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,1,0.05,0.95,direct,False,directional_only,post_ai_label
+CR-02,humour,Humour,attention,hook_rate,+,20,15,0.75,0.75,approximate,True,stable_candidate,rule_derived
+CR-02,humour,Humour,purchase,cvr_click,−,20,15,0.75,0.25,approximate,True,stable_candidate,rule_derived
+CR-02,storytelling,Storytelling / narrative,attention,hook_rate,+,20,18,0.9,0.9,approximate,True,stable_candidate,rule_derived
+CR-02,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,6,0.3,0.3,approximate,True,stable_candidate,post_ai_label
+CR-02,english_only,English-only language,attention,hook_rate,−,20,13,0.65,0.35,approximate,True,stable_candidate,post_ai_label
+CR-02,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-02,growth_claim,'Overall growth' narrative,purchase,roas,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-03,child_present,Child visible on screen,attention,hook_rate,+,20,15,0.75,0.75,direct,True,stable_candidate,post_ai_label
+CR-03,child_present,Child visible on screen,purchase,cvr_click,+,20,15,0.75,0.75,direct,False,no_clear_effect,post_ai_label
+CR-03,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-03,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-03,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,20,1.0,0.0,approximate,True,stable_candidate,post_ai_label
+CR-03,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-03,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-03,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-03,storytelling,Storytelling / narrative,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-03,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,post_ai_label
+CR-03,english_only,English-only language,attention,hook_rate,−,20,0,0.0,1.0,approximate,True,stable_candidate,post_ai_label
+CR-03,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-03,growth_claim,'Overall growth' narrative,purchase,roas,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-04,child_present,Child visible on screen,attention,hook_rate,+,20,11,0.55,0.55,direct,True,stable_candidate,post_ai_label
+CR-04,child_present,Child visible on screen,purchase,cvr_click,+,20,11,0.55,0.55,direct,False,no_clear_effect,post_ai_label
+CR-04,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-04,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-04,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,3,0.15,0.85,approximate,True,stable_candidate,post_ai_label
+CR-04,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,5,0.25,0.75,direct,False,directional_only,post_ai_label
+CR-04,humour,Humour,attention,hook_rate,+,20,1,0.05,0.05,approximate,True,stable_candidate,rule_derived
+CR-04,humour,Humour,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-04,storytelling,Storytelling / narrative,attention,hook_rate,+,20,8,0.4,0.4,approximate,True,stable_candidate,rule_derived
+CR-04,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,17,0.85,0.85,approximate,True,stable_candidate,post_ai_label
+CR-04,english_only,English-only language,attention,hook_rate,−,20,14,0.7,0.3,approximate,True,stable_candidate,post_ai_label
+CR-04,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,2,0.1,0.9,approximate,True,stable_candidate,rule_derived
+CR-04,growth_claim,'Overall growth' narrative,purchase,roas,−,20,2,0.1,0.9,approximate,True,stable_candidate,rule_derived
+CR-05,child_present,Child visible on screen,attention,hook_rate,+,20,20,1.0,1.0,direct,True,stable_candidate,post_ai_label
+CR-05,child_present,Child visible on screen,purchase,cvr_click,+,20,20,1.0,1.0,direct,False,no_clear_effect,post_ai_label
+CR-05,skit,Skit format,attention,hook_rate,+,20,3,0.15,0.15,direct,True,stable_candidate,post_ai_label
+CR-05,skit,Skit format,purchase,cvr_click,−,20,3,0.15,0.85,direct,False,directional_only,post_ai_label
+CR-05,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,12,0.6,0.4,approximate,True,stable_candidate,post_ai_label
+CR-05,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-05,humour,Humour,attention,hook_rate,+,20,15,0.75,0.75,approximate,True,stable_candidate,rule_derived
+CR-05,humour,Humour,purchase,cvr_click,−,20,15,0.75,0.25,approximate,True,stable_candidate,rule_derived
+CR-05,storytelling,Storytelling / narrative,attention,hook_rate,+,20,8,0.4,0.4,approximate,True,stable_candidate,rule_derived
+CR-05,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,10,0.5,0.5,approximate,True,stable_candidate,post_ai_label
+CR-05,english_only,English-only language,attention,hook_rate,−,20,4,0.2,0.8,approximate,True,stable_candidate,post_ai_label
+CR-05,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-05,growth_claim,'Overall growth' narrative,purchase,roas,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-06,child_present,Child visible on screen,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-06,child_present,Child visible on screen,purchase,cvr_click,+,20,0,0.0,0.0,direct,False,no_clear_effect,post_ai_label
+CR-06,skit,Skit format,attention,hook_rate,+,20,16,0.8,0.8,direct,True,stable_candidate,post_ai_label
+CR-06,skit,Skit format,purchase,cvr_click,−,20,16,0.8,0.2,direct,False,directional_only,post_ai_label
+CR-06,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,1,0.05,0.95,approximate,True,stable_candidate,post_ai_label
+CR-06,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-06,humour,Humour,attention,hook_rate,+,20,17,0.85,0.85,approximate,True,stable_candidate,rule_derived
+CR-06,humour,Humour,purchase,cvr_click,−,20,17,0.85,0.15,approximate,True,stable_candidate,rule_derived
+CR-06,storytelling,Storytelling / narrative,attention,hook_rate,+,20,17,0.85,0.85,approximate,True,stable_candidate,rule_derived
+CR-06,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,1,0.05,0.05,approximate,True,stable_candidate,post_ai_label
+CR-06,english_only,English-only language,attention,hook_rate,−,20,8,0.4,0.6,approximate,True,stable_candidate,post_ai_label
+CR-06,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-06,growth_claim,'Overall growth' narrative,purchase,roas,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-07,child_present,Child visible on screen,attention,hook_rate,+,20,14,0.7,0.7,direct,True,stable_candidate,post_ai_label
+CR-07,child_present,Child visible on screen,purchase,cvr_click,+,20,14,0.7,0.7,direct,False,no_clear_effect,post_ai_label
+CR-07,skit,Skit format,attention,hook_rate,+,20,1,0.05,0.05,direct,True,stable_candidate,post_ai_label
+CR-07,skit,Skit format,purchase,cvr_click,−,20,1,0.05,0.95,direct,False,directional_only,post_ai_label
+CR-07,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,3,0.15,0.85,approximate,True,stable_candidate,post_ai_label
+CR-07,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,9,0.45,0.55,direct,False,directional_only,post_ai_label
+CR-07,humour,Humour,attention,hook_rate,+,20,1,0.05,0.05,approximate,True,stable_candidate,rule_derived
+CR-07,humour,Humour,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-07,storytelling,Storytelling / narrative,attention,hook_rate,+,20,12,0.6,0.6,approximate,True,stable_candidate,rule_derived
+CR-07,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,15,0.75,0.75,approximate,True,stable_candidate,post_ai_label
+CR-07,english_only,English-only language,attention,hook_rate,−,20,19,0.95,0.05,approximate,True,stable_candidate,post_ai_label
+CR-07,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-07,growth_claim,'Overall growth' narrative,purchase,roas,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-08,child_present,Child visible on screen,attention,hook_rate,+,20,15,0.75,0.75,direct,True,stable_candidate,post_ai_label
+CR-08,child_present,Child visible on screen,purchase,cvr_click,+,20,15,0.75,0.75,direct,False,no_clear_effect,post_ai_label
+CR-08,skit,Skit format,attention,hook_rate,+,20,5,0.25,0.25,direct,True,stable_candidate,post_ai_label
+CR-08,skit,Skit format,purchase,cvr_click,−,20,5,0.25,0.75,direct,False,directional_only,post_ai_label
+CR-08,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,3,0.15,0.85,approximate,True,stable_candidate,post_ai_label
+CR-08,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,3,0.15,0.85,direct,False,directional_only,post_ai_label
+CR-08,humour,Humour,attention,hook_rate,+,20,10,0.5,0.5,approximate,True,stable_candidate,rule_derived
+CR-08,humour,Humour,purchase,cvr_click,−,20,10,0.5,0.5,approximate,True,stable_candidate,rule_derived
+CR-08,storytelling,Storytelling / narrative,attention,hook_rate,+,20,9,0.45,0.45,approximate,True,stable_candidate,rule_derived
+CR-08,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,10,0.5,0.5,approximate,True,stable_candidate,post_ai_label
+CR-08,english_only,English-only language,attention,hook_rate,−,20,7,0.35,0.65,approximate,True,stable_candidate,post_ai_label
+CR-08,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-08,growth_claim,'Overall growth' narrative,purchase,roas,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-09,child_present,Child visible on screen,attention,hook_rate,+,20,9,0.45,0.45,direct,True,stable_candidate,post_ai_label
+CR-09,child_present,Child visible on screen,purchase,cvr_click,+,20,9,0.45,0.45,direct,False,no_clear_effect,post_ai_label
+CR-09,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-09,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-09,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,5,0.25,0.75,approximate,True,stable_candidate,post_ai_label
+CR-09,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,3,0.15,0.85,direct,False,directional_only,post_ai_label
+CR-09,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-09,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-09,storytelling,Storytelling / narrative,attention,hook_rate,+,20,4,0.2,0.2,approximate,True,stable_candidate,rule_derived
+CR-09,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,7,0.35,0.35,approximate,True,stable_candidate,post_ai_label
+CR-09,english_only,English-only language,attention,hook_rate,−,20,16,0.8,0.2,approximate,True,stable_candidate,post_ai_label
+CR-09,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,3,0.15,0.85,approximate,True,stable_candidate,rule_derived
+CR-09,growth_claim,'Overall growth' narrative,purchase,roas,−,20,3,0.15,0.85,approximate,True,stable_candidate,rule_derived
+CR-10,child_present,Child visible on screen,attention,hook_rate,+,20,14,0.7,0.7,direct,True,stable_candidate,post_ai_label
+CR-10,child_present,Child visible on screen,purchase,cvr_click,+,20,14,0.7,0.7,direct,False,no_clear_effect,post_ai_label
+CR-10,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-10,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-10,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,0,0.0,1.0,approximate,True,stable_candidate,post_ai_label
+CR-10,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,13,0.65,0.35,direct,False,directional_only,post_ai_label
+CR-10,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-10,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-10,storytelling,Storytelling / narrative,attention,hook_rate,+,20,6,0.3,0.3,approximate,True,stable_candidate,rule_derived
+CR-10,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,18,0.9,0.9,approximate,True,stable_candidate,post_ai_label
+CR-10,english_only,English-only language,attention,hook_rate,−,20,15,0.75,0.25,approximate,True,stable_candidate,post_ai_label
+CR-10,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-10,growth_claim,'Overall growth' narrative,purchase,roas,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-11,child_present,Child visible on screen,attention,hook_rate,+,20,20,1.0,1.0,direct,True,stable_candidate,post_ai_label
+CR-11,child_present,Child visible on screen,purchase,cvr_click,+,20,20,1.0,1.0,direct,False,no_clear_effect,post_ai_label
+CR-11,skit,Skit format,attention,hook_rate,+,20,1,0.05,0.05,direct,True,stable_candidate,post_ai_label
+CR-11,skit,Skit format,purchase,cvr_click,−,20,1,0.05,0.95,direct,False,directional_only,post_ai_label
+CR-11,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,0,0.0,1.0,approximate,True,stable_candidate,post_ai_label
+CR-11,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,16,0.8,0.2,direct,False,directional_only,post_ai_label
+CR-11,humour,Humour,attention,hook_rate,+,20,3,0.15,0.15,approximate,True,stable_candidate,rule_derived
+CR-11,humour,Humour,purchase,cvr_click,−,20,3,0.15,0.85,approximate,True,stable_candidate,rule_derived
+CR-11,storytelling,Storytelling / narrative,attention,hook_rate,+,20,8,0.4,0.4,approximate,True,stable_candidate,rule_derived
+CR-11,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,18,0.9,0.9,approximate,True,stable_candidate,post_ai_label
+CR-11,english_only,English-only language,attention,hook_rate,−,20,6,0.3,0.7,approximate,True,stable_candidate,post_ai_label
+CR-11,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-11,growth_claim,'Overall growth' narrative,purchase,roas,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-12,child_present,Child visible on screen,attention,hook_rate,+,20,16,0.8,0.8,direct,True,stable_candidate,post_ai_label
+CR-12,child_present,Child visible on screen,purchase,cvr_click,+,20,16,0.8,0.8,direct,False,no_clear_effect,post_ai_label
+CR-12,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-12,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-12,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,1,0.05,0.95,approximate,True,stable_candidate,post_ai_label
+CR-12,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,5,0.25,0.75,direct,False,directional_only,post_ai_label
+CR-12,humour,Humour,attention,hook_rate,+,20,1,0.05,0.05,approximate,True,stable_candidate,rule_derived
+CR-12,humour,Humour,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-12,storytelling,Storytelling / narrative,attention,hook_rate,+,20,10,0.5,0.5,approximate,True,stable_candidate,rule_derived
+CR-12,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,6,0.3,0.3,approximate,True,stable_candidate,post_ai_label
+CR-12,english_only,English-only language,attention,hook_rate,−,20,16,0.8,0.2,approximate,True,stable_candidate,post_ai_label
+CR-12,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,3,0.15,0.85,approximate,True,stable_candidate,rule_derived
+CR-12,growth_claim,'Overall growth' narrative,purchase,roas,−,20,3,0.15,0.85,approximate,True,stable_candidate,rule_derived
+CR-13,child_present,Child visible on screen,attention,hook_rate,+,20,11,0.55,0.55,direct,True,stable_candidate,post_ai_label
+CR-13,child_present,Child visible on screen,purchase,cvr_click,+,20,11,0.55,0.55,direct,False,no_clear_effect,post_ai_label
+CR-13,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-13,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-13,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,4,0.2,0.8,approximate,True,stable_candidate,post_ai_label
+CR-13,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,2,0.1,0.9,direct,False,directional_only,post_ai_label
+CR-13,humour,Humour,attention,hook_rate,+,20,1,0.05,0.05,approximate,True,stable_candidate,rule_derived
+CR-13,humour,Humour,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-13,storytelling,Storytelling / narrative,attention,hook_rate,+,20,5,0.25,0.25,approximate,True,stable_candidate,rule_derived
+CR-13,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,9,0.45,0.45,approximate,True,stable_candidate,post_ai_label
+CR-13,english_only,English-only language,attention,hook_rate,−,20,11,0.55,0.45,approximate,True,stable_candidate,post_ai_label
+CR-13,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-13,growth_claim,'Overall growth' narrative,purchase,roas,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-14,child_present,Child visible on screen,attention,hook_rate,+,20,8,0.4,0.4,direct,True,stable_candidate,post_ai_label
+CR-14,child_present,Child visible on screen,purchase,cvr_click,+,20,8,0.4,0.4,direct,False,no_clear_effect,post_ai_label
+CR-14,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-14,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-14,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,15,0.75,0.25,approximate,True,stable_candidate,post_ai_label
+CR-14,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-14,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-14,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-14,storytelling,Storytelling / narrative,attention,hook_rate,+,20,2,0.1,0.1,approximate,True,stable_candidate,rule_derived
+CR-14,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,post_ai_label
+CR-14,english_only,English-only language,attention,hook_rate,−,20,17,0.85,0.15,approximate,True,stable_candidate,post_ai_label
+CR-14,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-14,growth_claim,'Overall growth' narrative,purchase,roas,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-15,child_present,Child visible on screen,attention,hook_rate,+,20,14,0.7,0.7,direct,True,stable_candidate,post_ai_label
+CR-15,child_present,Child visible on screen,purchase,cvr_click,+,20,14,0.7,0.7,direct,False,no_clear_effect,post_ai_label
+CR-15,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-15,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-15,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,1,0.05,0.95,approximate,True,stable_candidate,post_ai_label
+CR-15,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,5,0.25,0.75,direct,False,directional_only,post_ai_label
+CR-15,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-15,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-15,storytelling,Storytelling / narrative,attention,hook_rate,+,20,9,0.45,0.45,approximate,True,stable_candidate,rule_derived
+CR-15,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,10,0.5,0.5,approximate,True,stable_candidate,post_ai_label
+CR-15,english_only,English-only language,attention,hook_rate,−,20,17,0.85,0.15,approximate,True,stable_candidate,post_ai_label
+CR-15,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-15,growth_claim,'Overall growth' narrative,purchase,roas,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-16,child_present,Child visible on screen,attention,hook_rate,+,20,19,0.95,0.95,direct,True,stable_candidate,post_ai_label
+CR-16,child_present,Child visible on screen,purchase,cvr_click,+,20,19,0.95,0.95,direct,False,no_clear_effect,post_ai_label
+CR-16,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-16,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-16,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,18,0.9,0.1,approximate,True,stable_candidate,post_ai_label
+CR-16,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-16,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-16,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-16,storytelling,Storytelling / narrative,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-16,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,post_ai_label
+CR-16,english_only,English-only language,attention,hook_rate,−,20,1,0.05,0.95,approximate,True,stable_candidate,post_ai_label
+CR-16,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,5,0.25,0.75,approximate,True,stable_candidate,rule_derived
+CR-16,growth_claim,'Overall growth' narrative,purchase,roas,−,20,5,0.25,0.75,approximate,True,stable_candidate,rule_derived
+CR-17,child_present,Child visible on screen,attention,hook_rate,+,20,11,0.55,0.55,direct,True,stable_candidate,post_ai_label
+CR-17,child_present,Child visible on screen,purchase,cvr_click,+,20,11,0.55,0.55,direct,False,no_clear_effect,post_ai_label
+CR-17,skit,Skit format,attention,hook_rate,+,20,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-17,skit,Skit format,purchase,cvr_click,−,20,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-17,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,3,0.15,0.85,approximate,True,stable_candidate,post_ai_label
+CR-17,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,3,0.15,0.85,direct,False,directional_only,post_ai_label
+CR-17,humour,Humour,attention,hook_rate,+,20,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-17,humour,Humour,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-17,storytelling,Storytelling / narrative,attention,hook_rate,+,20,5,0.25,0.25,approximate,True,stable_candidate,rule_derived
+CR-17,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,4,0.2,0.2,approximate,True,stable_candidate,post_ai_label
+CR-17,english_only,English-only language,attention,hook_rate,−,20,15,0.75,0.25,approximate,True,stable_candidate,post_ai_label
+CR-17,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-17,growth_claim,'Overall growth' narrative,purchase,roas,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-18,child_present,Child visible on screen,attention,hook_rate,+,12,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-18,child_present,Child visible on screen,purchase,cvr_click,+,12,0,0.0,0.0,direct,False,no_clear_effect,post_ai_label
+CR-18,skit,Skit format,attention,hook_rate,+,12,0,0.0,0.0,direct,True,stable_candidate,post_ai_label
+CR-18,skit,Skit format,purchase,cvr_click,−,12,0,0.0,1.0,direct,False,directional_only,post_ai_label
+CR-18,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,12,0,0.0,1.0,approximate,True,stable_candidate,post_ai_label
+CR-18,voiceover_montage,Voiceover montage,attention,hook_rate,−,12,3,0.25,0.75,direct,False,directional_only,post_ai_label
+CR-18,humour,Humour,attention,hook_rate,+,12,0,0.0,0.0,approximate,True,stable_candidate,rule_derived
+CR-18,humour,Humour,purchase,cvr_click,−,12,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-18,storytelling,Storytelling / narrative,attention,hook_rate,+,12,1,0.0833,0.0833,approximate,True,stable_candidate,rule_derived
+CR-18,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,12,0,0.0,0.0,approximate,True,stable_candidate,post_ai_label
+CR-18,english_only,English-only language,attention,hook_rate,−,12,11,0.9167,0.0833,approximate,True,stable_candidate,post_ai_label
+CR-18,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,12,1,0.0833,0.9167,approximate,True,stable_candidate,rule_derived
+CR-18,growth_claim,'Overall growth' narrative,purchase,roas,−,12,1,0.0833,0.9167,approximate,True,stable_candidate,rule_derived
+CR-19,child_present,Child visible on screen,attention,hook_rate,+,20,8,0.4,0.4,direct,True,stable_candidate,post_ai_label
+CR-19,child_present,Child visible on screen,purchase,cvr_click,+,20,8,0.4,0.4,direct,False,no_clear_effect,post_ai_label
+CR-19,skit,Skit format,attention,hook_rate,+,20,1,0.05,0.05,direct,True,stable_candidate,post_ai_label
+CR-19,skit,Skit format,purchase,cvr_click,−,20,1,0.05,0.95,direct,False,directional_only,post_ai_label
+CR-19,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,11,0.55,0.45,approximate,True,stable_candidate,post_ai_label
+CR-19,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,2,0.1,0.9,direct,False,directional_only,post_ai_label
+CR-19,humour,Humour,attention,hook_rate,+,20,1,0.05,0.05,approximate,True,stable_candidate,rule_derived
+CR-19,humour,Humour,purchase,cvr_click,−,20,1,0.05,0.95,approximate,True,stable_candidate,rule_derived
+CR-19,storytelling,Storytelling / narrative,attention,hook_rate,+,20,11,0.55,0.55,approximate,True,stable_candidate,rule_derived
+CR-19,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,5,0.25,0.25,approximate,True,stable_candidate,post_ai_label
+CR-19,english_only,English-only language,attention,hook_rate,−,20,14,0.7,0.3,approximate,True,stable_candidate,post_ai_label
+CR-19,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-19,growth_claim,'Overall growth' narrative,purchase,roas,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-20,child_present,Child visible on screen,attention,hook_rate,+,20,20,1.0,1.0,direct,True,stable_candidate,post_ai_label
+CR-20,child_present,Child visible on screen,purchase,cvr_click,+,20,20,1.0,1.0,direct,False,no_clear_effect,post_ai_label
+CR-20,skit,Skit format,attention,hook_rate,+,20,2,0.1,0.1,direct,True,stable_candidate,post_ai_label
+CR-20,skit,Skit format,purchase,cvr_click,−,20,2,0.1,0.9,direct,False,directional_only,post_ai_label
+CR-20,explainer_to_camera,Explainer / piece to camera,attention,hook_rate,−,20,5,0.25,0.75,approximate,True,stable_candidate,post_ai_label
+CR-20,voiceover_montage,Voiceover montage,attention,hook_rate,−,20,2,0.1,0.9,direct,False,directional_only,post_ai_label
+CR-20,humour,Humour,attention,hook_rate,+,20,6,0.3,0.3,approximate,True,stable_candidate,rule_derived
+CR-20,humour,Humour,purchase,cvr_click,−,20,6,0.3,0.7,approximate,True,stable_candidate,rule_derived
+CR-20,storytelling,Storytelling / narrative,attention,hook_rate,+,20,9,0.45,0.45,approximate,True,stable_candidate,rule_derived
+CR-20,lifestyle_routine,Kids' lifestyle / routine content,attention,hook_rate,+,20,18,0.9,0.9,approximate,True,stable_candidate,post_ai_label
+CR-20,english_only,English-only language,attention,hook_rate,−,20,9,0.45,0.55,approximate,True,stable_candidate,post_ai_label
+CR-20,growth_claim,'Overall growth' narrative,purchase,cvr_click,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived
+CR-20,growth_claim,'Overall growth' narrative,purchase,roas,−,20,0,0.0,1.0,approximate,True,stable_candidate,rule_derived

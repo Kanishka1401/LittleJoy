@@ -1,0 +1,375 @@
+{
+  "creator_id": "CR-03",
+  "handle": "ekamichildcare",
+  "product": "Nutrimix",
+  "product_name": "Little Joys Nutrimix",
+  "variants": {
+    "concept": 0,
+    "hooks": 0,
+    "script": 0,
+    "visuals": 0,
+    "onscreen": 0,
+    "cta": 0
+  },
+  "source": {
+    "concept": "template",
+    "hooks": "template",
+    "script": "template",
+    "visuals": "template",
+    "onscreen": "template",
+    "cta": "template"
+  },
+  "selected_hook": 0,
+  "edited": [],
+  "concept": {
+    "title": "Label Walk-Through, Clinic Style",
+    "big_idea": "A calm, structured segment in the creator's usual professional setting: three things to check on a kids' mix label, then the Little Joys Nutrimix label read aloud line by line. He quotes what the pack states and nothing else; no health promises.",
+    "archetype": "Calm clinic consult (label walk-through)",
+    "objective": "Attention-stage creative test with this creator. A hypothesis, not a prediction: organic results do not predict paid performance.",
+    "why_fit": [
+      "Creative DNA: Across 20 posts: formats piece to camera (100%); content expert explainer (100%); language english + hindi (80%), hindi (20%); settings clinical (100%); children on camera 75%; product shown 20%; sponsored 10%.",
+      "heavy on explainer / piece to camera (100% of posts): Talking-to-camera is this creator's default; in Little Joys ads it had LOWER hook rates, so test an opening visual or story beat before the explanation. Caution: Post label is broader than the ad label.",
+      "Child visible on screen (75% of posts): Build the brief around the creator's own child in the product's routine moment (breakfast, tiffin, milk time). Caution: Ads: the strongest signal is a child in the FIRST 3 s, which posts cannot show (no timing label).",
+      "Attention alignment score 25/100 (AI-labelled posts vs paid-ad hook-rate patterns; organic engagement is not treated as evidence of paid performance)."
+    ],
+    "evidence": [
+      {
+        "kind": "post",
+        "id": "DY9ulQhz-tg",
+        "url": "https://www.instagram.com/p/DY9ulQhz-tg/",
+        "note": "piece_to_camera; topic: The negative health impacts of feeding children processed biscuits and advice on healthier alternatives.; hook: A direct, provocative question challenging a common parenting habit.; on-screen: Your child care, Nutrition, Healthy snack, Naam Par bhi"
+      },
+      {
+        "kind": "post",
+        "id": "Dci4UAFTkdA",
+        "url": "https://www.instagram.com/p/Dci4UAFTkdA/",
+        "note": "piece_to_camera; topic: debunking the myth that bathing a child with a fever is harmful; hook: addressing a common parenting myth directly; on-screen: specialist. hamari dadi, maarne, yani ki GUNGUNE, ke baad kya karen?, Number fou"
+      },
+      {
+        "kind": "post",
+        "id": "DdROq2BT18G",
+        "url": "https://www.instagram.com/p/DdROq2BT18G/",
+        "note": "piece_to_camera; topic: Debunking the myth that shaving a baby's head makes hair grow thicker; hook: Direct question challenging a common cultural belief; on-screen: Your child care specialist. BAAL PATLE. CONDITION. BAAL ghane. tak pahunch"
+      },
+      {
+        "kind": "post",
+        "id": "DXWtrJdkaqc",
+        "url": "https://www.instagram.com/p/DXWtrJdkaqc/",
+        "note": "piece_to_camera; topic: Child development and W-sitting posture; hook: Direct question about a common child behavior to trigger parental concern; on-screen: W sitting, bacche ko playground mai, SHARE"
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-064",
+        "url": "",
+        "note": "Little Joys ad using 'Explainer / piece to camera'. Creative DNA reading: pattern is associated with LOWER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-092",
+        "url": "",
+        "note": "Little Joys ad using 'Explainer / piece to camera'. Creative DNA reading: pattern is associated with LOWER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-033",
+        "url": "",
+        "note": "Little Joys ad using 'Explainer / piece to camera'. Creative DNA reading: pattern is associated with LOWER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-077",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-014",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-050",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      }
+    ]
+  },
+  "hooks": [
+    {
+      "text": "Myth: pack ke front par jo likha hai, wahi poori kahani hai. Chaliye check karte hain.",
+      "angle": "myth",
+      "on_screen": "MYTH vs LABEL",
+      "evidence_post": "Dci4UAFTkdA",
+      "rationale": "Echoes this creator's real post Dci4UAFTkdA (hook style: addressing a common parenting myth directly)."
+    },
+    {
+      "text": "Koi bhi mix kharidne se pehle yeh teen cheezein dekhiye.",
+      "angle": "list",
+      "on_screen": "3 CHEEZEIN",
+      "evidence_post": "DXWtrJdkaqc",
+      "rationale": "Echoes this creator's real post DXWtrJdkaqc (hook style: Direct question about a common child behavior to trigger parental concern)."
+    },
+    {
+      "text": "Jo aap roz bacche ko dete hain, uski ingredients list aapne kitni baar padhi hai?",
+      "angle": "habit",
+      "on_screen": "INGREDIENTS LIST",
+      "evidence_post": "DY9ulQhz-tg",
+      "rationale": "Echoes this creator's real post DY9ulQhz-tg (hook style: A direct, provocative question challenging a common parenting habit.)."
+    }
+  ],
+  "cta": {
+    "kind": "label_link",
+    "spoken": "Label khud padhiye. Link: [[CONFIRM: link or code]]. Little Joys ke saath paid partnership.",
+    "on_screen": "Read the full label: [[CONFIRM: link or code]]  #ad",
+    "note": "Soft, information-led CTA that fits a consult-style creator."
+  },
+  "tone": {
+    "summary": "Calm, measured and reassuring: a clinician explaining something to a parent, not selling to them.",
+    "delivery": [
+      "Pace: slow and even; pause after each quoted label line.",
+      "Language: Hindi with English terms; list-based ('teen cheezein') structure.",
+      "On camera in his usual professional setting; no influencer-style transitions or slang.",
+      "Read label lines verbatim; do not paraphrase them into benefits."
+    ],
+    "language": "Hindi + English (as in his posts)",
+    "camera": "Piece to camera, clinic setting",
+    "creator_voice_in_profile": "The tone is consistently calm, clinical, and professional. He speaks with the measured pace of a doctor explaining a diagnosis or treatment plan to a patient's parent.",
+    "catchphrases_in_profile": "Wearing a stethoscope on camera; Direct questions addressing common parental fears; Structured, list-based advice; Calm, reassuring delivery",
+    "native_in_profile": "A sponsored post must feel like a clinical consultation or a myth-busting segment. It should feature the creator in his professional attire, using text overlays to highlight key medical takeaways or product benefits."
+  },
+  "avoid": [
+    {
+      "item": "Any claim that the product treats, prevents or cures anything, or improves immunity, growth, height, weight, brain development or strength.",
+      "reason": "No such claim is verified in the supplied files; several older ads contain them (see restricted claims list).",
+      "source": "global rule"
+    },
+    {
+      "item": "Any number, percentage, multiplier or vitamin count that is not one of the verified product facts for the chosen product.",
+      "reason": "Numeric claims must trace to a fact ID.",
+      "source": "global rule"
+    },
+    {
+      "item": "Superlatives and exclusivity (\"best\", \"only\", \"No. 1\", \"bestseller\", \"loved by 10 lakh moms\").",
+      "reason": "Appear in older ad copy but cannot be substantiated from the files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Comparisons with, or mentions of, other brands or products.",
+      "reason": "Competitor kids-nutrition brands appear in several shortlisted creators' sponsored posts; keep the Little Joys video clean of them.",
+      "source": "global rule"
+    },
+    {
+      "item": "Third-party testing or certification claims (e.g. lab tested, Eurofins).",
+      "reason": "Mentioned in ad copy, but certificates are not part of the supplied files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Scripted taste or eating outcomes (\"kids love it\", \"finishes it in two minutes\"). Film real reactions only.",
+      "reason": "Outcome claims are unverified; scripted reactions would misrepresent what happened.",
+      "source": "global rule"
+    },
+    {
+      "item": "\"Doctor recommended\", \"expert approved\" or any medical-authority endorsement the creator has not personally confirmed.",
+      "reason": "Endorsement must be genuine and disclosed.",
+      "source": "global rule"
+    },
+    {
+      "item": "Age suitability, serving size or dosage statements unless supplied by Little Joys.",
+      "reason": "Not available in the supplied files; left as [[CONFIRM: ...]] placeholders.",
+      "source": "global rule"
+    },
+    {
+      "item": "Omitting the paid-partnership disclosure.",
+      "reason": "Every script ends with a disclosure line; confirm the platform's disclosure label.",
+      "source": "global rule"
+    },
+    {
+      "item": "Energetic transitions, casual slang or a sales-pitch register (the creator's own profile flags these as out of place).",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Linking the product to any of the medical topics he normally covers (fever, posture, screen time).",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Other brands visible in this creator's posts (AI-labelled): Areoveda, Calvin Klein, Lacoste, Little Tummys, Troovy. Do not show or mention any in the Little Joys video.",
+      "reason": "Exclusivity and clean-brand framing; verify contracts.",
+      "source": "post labels"
+    },
+    {
+      "item": "Foreign-feeling styles per profile: High-energy, influencer-style transitions, overly casual slang, or a lack of medical context would feel out of place. A script that reads like a generic advertisement rather than a doctor's recommendation will break trust.",
+      "reason": "From the creator's AI-generated profile.",
+      "source": "creator profile (AI-generated)"
+    }
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "voice": "Myth: pack ke front par jo likha hai, wahi poori kahani hai. Chaliye check karte hain.",
+      "visual": "Medium close-up, creator in his usual professional attire (stethoscope, as in his posts), calm direct address; jar held low, label not yet shown.",
+      "text": "MYTH vs LABEL",
+      "start": 0,
+      "end": 5,
+      "est_speech_s": 7.0,
+      "caption": "Myth: pack ke front par jo likha hai, wahi poori kahani hai. Chaliye check karte hain."
+    },
+    {
+      "n": 2,
+      "voice": "Har pack ka daava alag hota hai. Main front ke daave nahi, back ki list dekhta hoon.",
+      "visual": "Cut to the jar flipped round: back panel fills the frame, creator's finger on the ingredients heading.",
+      "text": "Front of pack vs ingredients list",
+      "start": 5,
+      "end": 13,
+      "est_speech_s": 7.4,
+      "caption": "Har pack ka daava alag hota hai. Main front ke daave nahi, back ki list dekhta hoon."
+    },
+    {
+      "n": 3,
+      "voice": "Is Nutrimix ke label par: \"Sweetened with jaggery and dates\" aur \"No artificial sweeteners\". Ingredients: \"Contains ragi, bajra, almonds, and walnuts\".",
+      "visual": "Macro shot of the real label; each quoted line is highlighted as he reads it (highlight just the pack's own words). Cut-aways of him nodding.",
+      "text": "\"Sweetened with jaggery and dates\"",
+      "start": 13,
+      "end": 24,
+      "est_speech_s": 9.1,
+      "caption": "Is Nutrimix ke label par: \"Sweetened with jaggery and dates\" aur \"No artificial sweeteners\". Ingredients: \"Contains ragi, bajra, almonds, and walnuts\"."
+    },
+    {
+      "n": 4,
+      "voice": "Teen cheezein dekhiye: ingredients, sweetener, aur umar ke liye guidance. [[CONFIRM: age band and serving guidance]]",
+      "visual": "Notepad shot: he ticks the three checks as he says them, then returns to face for the last line.",
+      "text": "Ingredients | Sweetener | [[CONFIRM: age and serving guidance]]",
+      "start": 24,
+      "end": 35,
+      "est_speech_s": 6.5,
+      "caption": "Teen cheezein dekhiye: ingredients, sweetener, aur umar ke liye guidance. [[age band and serving guidance]]"
+    },
+    {
+      "n": 5,
+      "voice": "Label khud padhiye. Link: [[CONFIRM: link or code]]. Little Joys ke saath paid partnership.",
+      "visual": "Creator holds the jar beside his face, steady shot, calm expression; end card with link/code placeholder and the disclosure tag.",
+      "text": "Read the full label: [[CONFIRM: link or code]]  #ad",
+      "start": 35,
+      "end": 43,
+      "est_speech_s": 5.7,
+      "caption": "Label khud padhiye. Link: [[link or code]]. Little Joys ke saath paid partnership."
+    }
+  ],
+  "timing": {
+    "total_s": 43,
+    "est_speech_s": 35.7,
+    "pace_words_per_s": 2.3
+  },
+  "post_caption": "Label padhna seekhiye: ingredients, sweetener, serving. Little Joys Nutrimix ke label par jo likha hai, wahi dikhaya hai. [[CONFIRM: age and serving guidance]]  #ad #paidpartnership [[CONFIRM: brand handle to tag]]",
+  "facts_used": [
+    "N_INGR",
+    "N_NOARTSW",
+    "N_SWEET"
+  ],
+  "fact_table": [
+    {
+      "id": "N_SWEET",
+      "text": "Sweetened with jaggery and dates",
+      "role": "sweetener",
+      "ad_ids": [
+        "LJ-009",
+        "LJ-029",
+        "LJ-045",
+        "LJ-075",
+        "LJ-087",
+        "LJ-095"
+      ],
+      "n_ads": 6,
+      "status": "brand-stated (needs brand confirmation)"
+    },
+    {
+      "id": "N_INGR",
+      "text": "Contains ragi, bajra, almonds, and walnuts",
+      "role": "ingredients",
+      "ad_ids": [
+        "LJ-027",
+        "LJ-042",
+        "LJ-089"
+      ],
+      "n_ads": 3,
+      "status": "brand-stated (needs brand confirmation)"
+    },
+    {
+      "id": "N_NOARTSW",
+      "text": "No artificial sweeteners",
+      "role": "sweetener",
+      "ad_ids": [
+        "LJ-022",
+        "LJ-029"
+      ],
+      "n_ads": 2,
+      "status": "brand-stated (needs brand confirmation)"
+    }
+  ],
+  "placeholders": [
+    "[[CONFIRM: age and serving guidance]]",
+    "[[CONFIRM: age band and serving guidance]]",
+    "[[CONFIRM: brand handle to tag]]",
+    "[[CONFIRM: link or code]]"
+  ],
+  "validation": [
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: age band and serving guidance]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene4.voice"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: age and serving guidance]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene4.text"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.voice"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.text"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.spoken"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.on_screen"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: age and serving guidance]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: brand handle to tag]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    }
+  ]
+}

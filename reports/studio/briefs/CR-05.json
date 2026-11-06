@@ -1,0 +1,327 @@
+{
+  "creator_id": "CR-05",
+  "handle": "sia_3vedi",
+  "product": "Nutrimix",
+  "product_name": "Little Joys Nutrimix",
+  "variants": {
+    "concept": 0,
+    "hooks": 0,
+    "script": 0,
+    "visuals": 0,
+    "onscreen": 0,
+    "cta": 0
+  },
+  "source": {
+    "concept": "template",
+    "hooks": "template",
+    "script": "template",
+    "visuals": "template",
+    "onscreen": "template",
+    "cta": "template"
+  },
+  "selected_hook": 0,
+  "edited": [],
+  "concept": {
+    "title": "Doodh Ki Shart",
+    "big_idea": "A short bargaining sketch in the child's own style: she sets a 'condition' for milk, the adult produces the Little Joys Nutrimix as a prop, and an adult voiceover (not the child) reads one label line. She ends on a playful 'verdict tomorrow'.",
+    "archetype": "Child-performer bargaining sketch with adult co-star",
+    "objective": "Attention-stage creative test with this creator. A hypothesis, not a prediction: organic results do not predict paid performance.",
+    "why_fit": [
+      "Creative DNA: Across 20 posts: formats piece to camera (60%), skit (15%); content lifestyle (50%), comedy skit (35%); language hindi (65%), english (20%); settings indoor home (75%), outdoor (25%); children on camera 100%; product shown 20%; sponsored 5%.",
+      "Child visible on screen (100% of posts): Build the brief around the creator's own child in the product's routine moment (breakfast, tiffin, milk time). Caution: Ads: the strongest signal is a child in the FIRST 3 s, which posts cannot show (no timing label).",
+      "Humour (75% of posts): Light situational humour is natural for this creator; use it to earn attention, and keep the offer/product step unambiguous for conversion. Caution: Ads: humour raises 3-s hook rate but 'no humour' has HIGHER click→purchase (stable candidate). Humour in ads is rare (15 of 97).",
+      "Attention alignment score 57/100 (AI-labelled posts vs paid-ad hook-rate patterns; organic engagement is not treated as evidence of paid performance)."
+    ],
+    "evidence": [
+      {
+        "kind": "post",
+        "id": "DOcov2NibmL",
+        "url": "https://www.instagram.com/p/DOcov2NibmL/",
+        "note": "piece_to_camera; topic: A child pretending to have a stomach ache to avoid going to school; hook: A child speaking directly to the camera about a relatable childhood problem; on-screen: Pet kitna bura hai yaar, School jaane ke time hi dukhtaa hai yeh"
+      },
+      {
+        "kind": "post",
+        "id": "DeJWZvINVGK",
+        "url": "https://www.instagram.com/p/DeJWZvINVGK/",
+        "note": "piece_to_camera; topic: A young child dressed in traditional Indian attire performing a dance or gesture; hook: direct address to camera with traditional greeting gesture"
+      },
+      {
+        "kind": "post",
+        "id": "DczvRVxJkPq",
+        "url": "https://www.instagram.com/p/DczvRVxJkPq/",
+        "note": "reaction; topic: cultural costume and humor; hook: visual contrast between a child in traditional costume and a laughing boy; on-screen: Radha ji ya Yashodha Maiyaa?😆"
+      },
+      {
+        "kind": "post",
+        "id": "DKHKkopvg9W",
+        "url": "https://www.instagram.com/p/DKHKkopvg9W/",
+        "note": "piece_to_camera; topic: A young child talking about pigeons resting; hook: A child speaking directly to the camera with a humorous caption; on-screen: Kabootar Rest Kar rahe h😂😂"
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-077",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-014",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-050",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      }
+    ]
+  },
+  "hooks": [
+    {
+      "text": "Pehle acche se batao, doodh kaise piyun, aise ya aise?",
+      "angle": "camera",
+      "on_screen": "AISE YA AISE?",
+      "evidence_post": "DeJWZvINVGK",
+      "rationale": "Echoes this creator's real post DeJWZvINVGK (hook style: direct address to camera with traditional greeting gesture)."
+    },
+    {
+      "text": "Doodh piyungi, lekin meri ek shart hai!",
+      "angle": "bargain",
+      "on_screen": "MERI SHART",
+      "evidence_post": "DOcov2NibmL",
+      "rationale": "Echoes this creator's real post DOcov2NibmL (hook style: A child speaking directly to the camera about a relatable childhood problem)."
+    },
+    {
+      "text": "Aap bataiye, kya doodh sirf safed hona chahiye?",
+      "angle": "question",
+      "on_screen": "DOODH KA COLOUR?",
+      "evidence_post": "DKHKkopvg9W",
+      "rationale": "Echoes this creator's real post DKHKkopvg9W (hook style: A child speaking directly to the camera with a humorous caption)."
+    }
+  ],
+  "cta": {
+    "kind": "link",
+    "spoken": "VOICEOVER (adult): Details Little Joys ke link par: [[CONFIRM: link or code]]. Yeh paid partnership hai. SIA: Bye bye!",
+    "on_screen": "Link: [[CONFIRM: link or code]]  #ad",
+    "note": "An adult delivers the CTA and disclosure; the child only signs off."
+  },
+  "tone": {
+    "summary": "High-energy, playful child performance with an adult straight-man; product facts come only from an adult voiceover.",
+    "delivery": [
+      "Pace: quick and bouncy for the child, slow and clear for the adult label line.",
+      "Language: Hindi, matching her posts.",
+      "Short, scripted-by-adults lines in her own comedic-timing style; exaggerated expressions.",
+      "Product is a prop in an everyday home situation, not a testimonial."
+    ],
+    "language": "Hindi",
+    "camera": "Home set, child to camera with adult co-star",
+    "creator_voice_in_profile": "The creator speaks with the high-pitched, energetic, and expressive tone of a young child, often delivering lines scripted by adults in Hindi.",
+    "catchphrases_in_profile": "direct address to the camera; exaggerated facial expressions; traditional Indian festive attire; comedic timing with adult co-stars",
+    "native_in_profile": "A short, high-energy skit where Shivanya uses a product as a prop in a relatable, everyday situation like getting ready for school or playing at home."
+  },
+  "avoid": [
+    {
+      "item": "Any claim that the product treats, prevents or cures anything, or improves immunity, growth, height, weight, brain development or strength.",
+      "reason": "No such claim is verified in the supplied files; several older ads contain them (see restricted claims list).",
+      "source": "global rule"
+    },
+    {
+      "item": "Any number, percentage, multiplier or vitamin count that is not one of the verified product facts for the chosen product.",
+      "reason": "Numeric claims must trace to a fact ID.",
+      "source": "global rule"
+    },
+    {
+      "item": "Superlatives and exclusivity (\"best\", \"only\", \"No. 1\", \"bestseller\", \"loved by 10 lakh moms\").",
+      "reason": "Appear in older ad copy but cannot be substantiated from the files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Comparisons with, or mentions of, other brands or products.",
+      "reason": "Competitor kids-nutrition brands appear in several shortlisted creators' sponsored posts; keep the Little Joys video clean of them.",
+      "source": "global rule"
+    },
+    {
+      "item": "Third-party testing or certification claims (e.g. lab tested, Eurofins).",
+      "reason": "Mentioned in ad copy, but certificates are not part of the supplied files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Scripted taste or eating outcomes (\"kids love it\", \"finishes it in two minutes\"). Film real reactions only.",
+      "reason": "Outcome claims are unverified; scripted reactions would misrepresent what happened.",
+      "source": "global rule"
+    },
+    {
+      "item": "\"Doctor recommended\", \"expert approved\" or any medical-authority endorsement the creator has not personally confirmed.",
+      "reason": "Endorsement must be genuine and disclosed.",
+      "source": "global rule"
+    },
+    {
+      "item": "Age suitability, serving size or dosage statements unless supplied by Little Joys.",
+      "reason": "Not available in the supplied files; left as [[CONFIRM: ...]] placeholders.",
+      "source": "global rule"
+    },
+    {
+      "item": "Omitting the paid-partnership disclosure.",
+      "reason": "Every script ends with a disclosure line; confirm the platform's disclosure label.",
+      "source": "global rule"
+    },
+    {
+      "item": "A polished testimonial in which the child reads product benefits or specifications (her profile flags this as foreign, and it is a child-advertising risk).",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Having the child make any claim, comparison or taste verdict about the product; keep the verdict a joke.",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Competitor brands: her sponsored posts have shown other kids-nutrition brands.",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Filming or publishing without the guardians' confirmation of consent and disclosure.",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Other brands visible in this creator's posts (AI-labelled): Disney, Frozen, Gritzo, HP, Hollyland, Keekee, booba_babydoll. Do not show or mention any in the Little Joys video.",
+      "reason": "Exclusivity and clean-brand framing; verify contracts.",
+      "source": "post labels"
+    },
+    {
+      "item": "Foreign-feeling styles per profile: A polished, corporate-style testimonial where the child reads a script about product benefits or technical specifications.",
+      "reason": "From the creator's AI-generated profile.",
+      "source": "creator profile (AI-generated)"
+    }
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "voice": "Pehle acche se batao, doodh kaise piyun, aise ya aise?",
+      "visual": "Child at home in a bright room, close to camera, exaggerated serious face; adult off-camera.",
+      "text": "AISE YA AISE?",
+      "start": 0,
+      "end": 4,
+      "est_speech_s": 4.2,
+      "caption": "Pehle acche se batao, doodh kaise piyun, aise ya aise?"
+    },
+    {
+      "n": 2,
+      "voice": "SIA (haath nachate hue): Doodh mein kuch toh mazedaar chahiye, tab hi soch rahi hoon. MUMMY: Achha? Kya shart hai?",
+      "visual": "Two-shot of child and adult trading lines; the adult stays mostly off-camera.",
+      "text": "MERI SHART",
+      "start": 4,
+      "end": 12,
+      "est_speech_s": 6.2,
+      "caption": "Doodh mein kuch toh mazedaar chahiye, tab hi soch rahi hoon. Achha? Kya shart hai?"
+    },
+    {
+      "n": 3,
+      "voice": "MUMMY: Yeh dekho, Little Joys Nutrimix. SIA: Mujhe bhi chammach dena! VOICEOVER (adult): Pack par likha hai: \"Sweetened with jaggery and dates\".",
+      "visual": "An adult hand shows the Little Joys Nutrimix pack as a prop; the child inspects it with exaggerated curiosity; adult voiceover reads the label line over a close shot of the pack.",
+      "text": "\"Sweetened with jaggery and dates\"",
+      "start": 12,
+      "end": 23,
+      "est_speech_s": 7.5,
+      "caption": "Yeh dekho, Little Joys Nutrimix. Mujhe bhi chammach dena! Pack par likha hai: \"Sweetened with jaggery and dates\"."
+    },
+    {
+      "n": 4,
+      "voice": "SIA (dramatic pause): Hmm... Main apna verdict kal doongi, Mummy.",
+      "visual": "Child holds the glass with both hands, eyes to camera, teasing a verdict for tomorrow.",
+      "text": "Verdict: kal!",
+      "start": 23,
+      "end": 33,
+      "est_speech_s": 2.9,
+      "caption": "Hmm... Main apna verdict kal doongi, Mummy."
+    },
+    {
+      "n": 5,
+      "voice": "VOICEOVER (adult): Details Little Joys ke link par: [[CONFIRM: link or code]]. Yeh paid partnership hai. SIA: Bye bye!",
+      "visual": "Child waves to camera; end card with link/code placeholder; an adult voice delivers the disclosure.",
+      "text": "Link: [[CONFIRM: link or code]]  #ad",
+      "start": 33,
+      "end": 39,
+      "est_speech_s": 6.2,
+      "caption": "Details Little Joys ke link par: [[link or code]]. Yeh paid partnership hai. Bye bye!"
+    }
+  ],
+  "timing": {
+    "total_s": 39,
+    "est_speech_s": 27.1,
+    "pace_words_per_s": 2.4
+  },
+  "post_caption": "Doodh ki shart pe aaj ka sketch. Pack par jo likha hai woh video mein hai. [[CONFIRM: variant and age band]]  #ad #paidpartnership [[CONFIRM: brand handle to tag]]",
+  "facts_used": [
+    "N_SWEET"
+  ],
+  "fact_table": [
+    {
+      "id": "N_SWEET",
+      "text": "Sweetened with jaggery and dates",
+      "role": "sweetener",
+      "ad_ids": [
+        "LJ-009",
+        "LJ-029",
+        "LJ-045",
+        "LJ-075",
+        "LJ-087",
+        "LJ-095"
+      ],
+      "n_ads": 6,
+      "status": "brand-stated (needs brand confirmation)"
+    }
+  ],
+  "placeholders": [
+    "[[CONFIRM: brand handle to tag]]",
+    "[[CONFIRM: link or code]]",
+    "[[CONFIRM: variant and age band]]"
+  ],
+  "validation": [
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.voice"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.text"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.spoken"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.on_screen"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: variant and age band]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: brand handle to tag]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "bootstrap_B": 2000,
+  "ci_level": 0.95,
+  "inputs_sha256": {
+    "ads": "e19f253790f9dd93f30f24ce9587c21de009436533ab6bd2b3acaa874a1481d1",
+    "audience": "80ca1498cdac7335592bacd67f0d2d16415efd595b64ad3406f670e95f890b98",
+    "creators": "11a8696b91e80e7316a60e1a4ed691e709c71567d44283598917e79b07a821ba",
+    "posts": "9f0c9a768d40b89fc3d61c476f69031af9fc710f6adcb27d529c283a58520434"
+  },
+  "low_n_flag": 10,
+  "min_level_n": 5,
+  "min_stratum_n": 3,
+  "outputs_sha256": {
+    "attribute_effects_all_variants.csv": "f9c3a09b121736602509b5826dcecb3054995a4abc58f0c58cb94d6ab7ea1a82",
+    "attribute_effects_stability.csv": "c66ef4c52e34832594ac8fb4c84ed32d80b714d970021e5e8c317585d43d9f37",
+    "baseline_by_variant.csv": "21c9c22cbe76a16fe66dd007ad42525c878af3353717c3a86ea0c2efde7e371a",
+    "baseline_summary.json": "0355b3c54ce0c3911e135ba8dc1c20a3d3150051cdcd6532607df32f2c5cb9b8",
+    "column_provenance.csv": "0d3809d372cbd0e452a0019a231d3634e1e113d3c0e138d28351135e4470c192",
+    "column_provenance.json": "bc504795052b6e8c25fda1f4e90c3a9f0def75eed0a7fb3a8734acce145c983b",
+    "concentration.csv": "eeb3d21d1a848cb2481e80b4c045a5fb9c0bbf2285d52093dab632faa810b458",
+    "concentration_leave_one_out.csv": "08352057022022e1e4cd493f3cc8588582932922a157a4a23cf3010eb575d452",
+    "concentration_lorenz.csv": "de2e045e8aad5d0fc6b68b3e30a3a1da0ed1ada1feb698b1cb8a0e08b628ad73",
+    "correlations_within_product_form.csv": "1b4c04d5ad89e66046fbf4c1e27bf633900b4bf608fabd8b4fe06b8a82bc2d11",
+    "funnel_by_product_form.csv": "9d33755c328426fb2a04f4e1a34ae92b938174941374451c9b21b97589cc7171",
+    "hypothesis_results.csv": "91c6061f1ff45b772105fe083221cd35c9955b91654f8a17601700eb9dce9b9b",
+    "key_signals.json": "ee5d2ce0e97859fc334f9fe081c1cf06b95445e5b4a9ae67873977a8e23c42c4",
+    "label_quality.csv": "75668f143ca2b55f07144ff7183016c18e935a07996df3983f8d4239604f43c4",
+    "product_form_performance.csv": "82304bee13bb666aca58fa2b570b819a88ac36b42e116c58db53ef34beb2795a",
+    "product_form_roas_contrasts.csv": "3479c2318ef6d2a3734ae407b2699643fc5c9e13eef04dec38efa7eed37d31e4",
+    "variants.json": "82425f8302ab7e6fe027a29593c9b676431ba9668694aadd44aae3f72962eec2"
+  },
+  "seed": 20261104,
+  "stratification": "product_form",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "python": "3.13.18",
+    "scipy": "1.18.1"
+  }
+}

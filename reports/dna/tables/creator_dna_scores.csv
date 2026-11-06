@@ -1,0 +1,21 @@
+creator_id,attention_alignment,attention_alignment_effect_weighted,attention_status,attention_n_features,purchase_alignment,purchase_alignment_effect_weighted,purchase_status,purchase_n_features,attention_rank,engine_rank,handle,engine_composite,shortlisted
+CR-01,14.2857,12.4432,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,19.0,5,drgarima_mehta,67.9649,True
+CR-02,65.0,70.0015,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,1.0,3,livesimply_withkripa,68.5014,True
+CR-03,25.0,19.6841,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,17.0,1,ekamichildcare,72.5522,True
+CR-04,42.8571,39.6958,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,9.0,17,hello_ps8,50.564,False
+CR-05,57.1429,55.6151,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,5.0,4,sia_3vedi,68.169,True
+CR-06,58.5714,65.0468,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,3.0,20,thatkushalmistry,46.7222,False
+CR-07,43.5714,41.4438,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,8.0,13,ohmother.in,56.8283,False
+CR-08,56.4286,55.9937,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,6.0,11,the_mum_wife_playbook,59.8899,False
+CR-09,27.8571,26.8001,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,16.0,16,doc_mama_and_babies,51.4397,False
+CR-10,45.0,41.5919,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,7.0,9,couple_adishiv,61.9359,False
+CR-11,60.0,55.2365,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,2.0,2,raja_choudhary04,70.9118,True
+CR-12,40.0,39.2195,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,10.0,7,raising_zohran,63.5563,False
+CR-13,36.4286,34.2666,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,12.0,15,mumma_and_ridhu,51.5824,False
+CR-14,12.8571,12.1153,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,20.0,12,parentingtips_surat,59.6447,False
+CR-15,39.2857,37.78,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,11.0,10,tej.lil.diary,60.9401,False
+CR-16,28.5714,23.2547,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,15.0,8,paediatrics_decoded,62.7042,False
+CR-17,30.0,29.4546,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,13.0,19,radhikabansal0908,47.0925,False
+CR-18,16.6667,19.2731,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,18.0,14,foodies_by_neha,52.5107,False
+CR-19,29.2857,27.9156,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,14.0,18,instamommy_suchi,48.1692,False
+CR-20,57.8571,53.8492,scored,7,,,not scored: 2 eligible feature(s) < required 3,2,4.0,6,storiesbyvihaa,66.4251,False

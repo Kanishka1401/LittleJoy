@@ -1,0 +1,45 @@
+{
+  "scorable_quality": [
+    "approximate",
+    "direct"
+  ],
+  "min_scored_features": 3,
+  "min_labelled_posts": 10,
+  "strength_alignment": 0.6,
+  "gap_alignment": 0.3,
+  "success_cohort_quantile": 0.75,
+  "shortlist": [
+    "CR-03",
+    "CR-11",
+    "CR-02",
+    "CR-05",
+    "CR-01"
+  ],
+  "no_equivalent_fields": [
+    [
+      "production (ugc / semi_pro / studio)",
+      "production_quality_1to5 is a different, compressed scale; no clear ad effect either."
+    ],
+    [
+      "proof_used, persuasion (statistics, competitor contrast), cta_type, offer, brand_*",
+      "Organic posts have no CTA/offer/brand-mention structure."
+    ],
+    [
+      "hook_type / hook_driver",
+      "Post hook_style is free text; no controlled vocabulary to map."
+    ],
+    [
+      "audio / music / captions",
+      "Not labelled on posts."
+    ]
+  ],
+  "provenance_legend": {
+    "ad_platform_metric": "reported by ad platform",
+    "ad_ai_label": "model-labelled ad attribute",
+    "post_ai_label": "model-labelled post attribute",
+    "post_platform_field": "scraped (URL/date/type)",
+    "rule_derived": "our keyword/regex rule over AI-labelled text",
+    "assumption": "judgement call, not data"
+  },
+  "organic_engagement_used": false
+}

@@ -1,0 +1,377 @@
+{
+  "creator_id": "CR-01",
+  "handle": "drgarima_mehta",
+  "product": "Proteinmix",
+  "product_name": "Little Joys Proteinmix",
+  "variants": {
+    "concept": 0,
+    "hooks": 0,
+    "script": 0,
+    "visuals": 0,
+    "onscreen": 0,
+    "cta": 0
+  },
+  "source": {
+    "concept": "template",
+    "hooks": "template",
+    "script": "template",
+    "visuals": "template",
+    "onscreen": "template",
+    "cta": "template"
+  },
+  "selected_hook": 0,
+  "edited": [],
+  "concept": {
+    "title": "Label Check: Protein Mix",
+    "big_idea": "A split-screen label walk-through in her clinical setting, in the style of her packaged-product review posts. She reads the Little Joys Proteinmix label lines as printed, and sends parents back to their child's doctor for serving questions.",
+    "archetype": "Doctor label-check (split-screen)",
+    "objective": "Attention-stage creative test with this creator. A hypothesis, not a prediction: organic results do not predict paid performance.",
+    "why_fit": [
+      "Creative DNA: Across 20 posts: formats piece to camera (95%), voiceover montage (5%); content expert explainer (95%), tutorial (5%); language english (100%); settings clinical (100%); children on camera 85%; product shown 45%; sponsored 10%.",
+      "heavy on explainer / piece to camera (95% of posts): Talking-to-camera is this creator's default; in Little Joys ads it had LOWER hook rates, so test an opening visual or story beat before the explanation. Caution: Post label is broader than the ad label.",
+      "Child visible on screen (85% of posts): Build the brief around the creator's own child in the product's routine moment (breakfast, tiffin, milk time). Caution: Ads: the strongest signal is a child in the FIRST 3 s, which posts cannot show (no timing label).",
+      "Attention alignment score 14/100 (AI-labelled posts vs paid-ad hook-rate patterns; organic engagement is not treated as evidence of paid performance)."
+    ],
+    "evidence": [
+      {
+        "kind": "post",
+        "id": "DZKvlfmIxR-",
+        "url": "https://www.instagram.com/p/DZKvlfmIxR-/",
+        "note": "piece_to_camera; topic: Nutritional analysis of packaged children's snacks; hook: Direct alert about a specific brand product review; on-screen: CHUPA CHUPS PRODUCT REVIEW ALERT! Tartrazine E102 Widely used yellow food colour"
+      },
+      {
+        "kind": "post",
+        "id": "DYpMEvmzwch",
+        "url": "https://www.instagram.com/p/DYpMEvmzwch/",
+        "note": "piece_to_camera; topic: Pediatric fever medication comparison; hook: Direct question addressing a common parental confusion; on-screen: Which Fever Medicine is Right for Kids? Paracetamol vs Meftal vs Ibuprofen; If y"
+      },
+      {
+        "kind": "post",
+        "id": "Ddd9hGsoZ3V",
+        "url": "https://www.instagram.com/p/Ddd9hGsoZ3V/",
+        "note": "piece_to_camera; topic: Correct Vitamin D3 dosing for infants; hook: Direct address to parents about a common, potentially dangerous mistake.; on-screen: Vitamin D3 for babies Biggest Dosing Mistake Parents"
+      },
+      {
+        "kind": "post",
+        "id": "DaSmKPaId-3",
+        "url": "https://www.instagram.com/p/DaSmKPaId-3/",
+        "note": "voiceover_montage; topic: Healthy weight gain recipes for children; hook: Direct address to a common parental concern about child weight.; on-screen: 5 HEALTHY FOODS That Help Kids Gain Weight Naturally; 1. Banana Power Bowl; 2. P"
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-064",
+        "url": "",
+        "note": "Little Joys ad using 'Explainer / piece to camera'. Creative DNA reading: pattern is associated with LOWER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-092",
+        "url": "",
+        "note": "Little Joys ad using 'Explainer / piece to camera'. Creative DNA reading: pattern is associated with LOWER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-033",
+        "url": "",
+        "note": "Little Joys ad using 'Explainer / piece to camera'. Creative DNA reading: pattern is associated with LOWER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-077",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-014",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      },
+      {
+        "kind": "ad",
+        "id": "LJ-050",
+        "url": "",
+        "note": "Little Joys ad using 'Child visible on screen'. Creative DNA reading: pattern is associated with HIGHER hook rate; creator does it often."
+      }
+    ]
+  },
+  "hooks": [
+    {
+      "text": "Front of pack aur back of pack. Fark samjhiye.",
+      "angle": "compare",
+      "on_screen": "FRONT vs BACK",
+      "evidence_post": "DYpMEvmzwch",
+      "rationale": "Echoes this creator's real post DYpMEvmzwch (hook style: Direct question addressing a common parental confusion)."
+    },
+    {
+      "text": "Label padhte waqt parents yeh ek galti karte hain: sirf front dekhte hain.",
+      "angle": "mistake",
+      "on_screen": "EK GALTI",
+      "evidence_post": "Ddd9hGsoZ3V",
+      "rationale": "Echoes this creator's real post Ddd9hGsoZ3V (hook style: Direct address to parents about a common, potentially dangerous mistake.)."
+    },
+    {
+      "text": "Yeh reel save kar lijiye. Label padhna yaad rahega.",
+      "angle": "save",
+      "on_screen": "SAVE THIS REEL",
+      "evidence_post": "DZKvlfmIxR-",
+      "rationale": "Echoes this creator's real post DZKvlfmIxR- (hook style: Direct alert about a specific brand product review)."
+    }
+  ],
+  "cta": {
+    "kind": "save",
+    "spoken": "Save this reel taaki label padhna yaad rahe. Product details: [[CONFIRM: link or code]]. Little Joys ke saath paid partnership.",
+    "on_screen": "Save this reel  |  [[CONFIRM: link]]  #ad",
+    "note": "Uses her signature 'Save this reel' call to action."
+  },
+  "tone": {
+    "summary": "Fast, reassuring and clinical: a doctor teaching label literacy, with Hindi explanation and English terms.",
+    "delivery": [
+      "Pace: quick and energetic, as in her posts, but slow down for quoted label lines.",
+      "Language: Hindi explanation with English product and label terms (English-only would feel foreign).",
+      "Direct 'aap' address, split-screen layout, 'Save this reel' close.",
+      "Teach how to read a label; never recommend the product or a dose."
+    ],
+    "language": "Hindi + English terms",
+    "camera": "Clinic set, split-screen",
+    "creator_voice_in_profile": "She speaks in a fast, energetic, and professional manner, primarily using Hindi with English medical terminology. Her tone is consistently reassuring and clinical.",
+    "catchphrases_in_profile": "Direct 'aap' address to the viewer; Call to action 'Save this reel'; Use of a medical doll for physical demonstrations; Split-screen visual layout",
+    "native_in_profile": "A video featuring the doctor in her clinical setting or a clean, bright space, using a split-screen format to explain the science behind a product's safety or efficacy."
+  },
+  "avoid": [
+    {
+      "item": "Any claim that the product treats, prevents or cures anything, or improves immunity, growth, height, weight, brain development or strength.",
+      "reason": "No such claim is verified in the supplied files; several older ads contain them (see restricted claims list).",
+      "source": "global rule"
+    },
+    {
+      "item": "Any number, percentage, multiplier or vitamin count that is not one of the verified product facts for the chosen product.",
+      "reason": "Numeric claims must trace to a fact ID.",
+      "source": "global rule"
+    },
+    {
+      "item": "Superlatives and exclusivity (\"best\", \"only\", \"No. 1\", \"bestseller\", \"loved by 10 lakh moms\").",
+      "reason": "Appear in older ad copy but cannot be substantiated from the files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Comparisons with, or mentions of, other brands or products.",
+      "reason": "Competitor kids-nutrition brands appear in several shortlisted creators' sponsored posts; keep the Little Joys video clean of them.",
+      "source": "global rule"
+    },
+    {
+      "item": "Third-party testing or certification claims (e.g. lab tested, Eurofins).",
+      "reason": "Mentioned in ad copy, but certificates are not part of the supplied files.",
+      "source": "global rule"
+    },
+    {
+      "item": "Scripted taste or eating outcomes (\"kids love it\", \"finishes it in two minutes\"). Film real reactions only.",
+      "reason": "Outcome claims are unverified; scripted reactions would misrepresent what happened.",
+      "source": "global rule"
+    },
+    {
+      "item": "\"Doctor recommended\", \"expert approved\" or any medical-authority endorsement the creator has not personally confirmed.",
+      "reason": "Endorsement must be genuine and disclosed.",
+      "source": "global rule"
+    },
+    {
+      "item": "Age suitability, serving size or dosage statements unless supplied by Little Joys.",
+      "reason": "Not available in the supplied files; left as [[CONFIRM: ...]] placeholders.",
+      "source": "global rule"
+    },
+    {
+      "item": "Omitting the paid-partnership disclosure.",
+      "reason": "Every script ends with a disclosure line; confirm the platform's disclosure label.",
+      "source": "global rule"
+    },
+    {
+      "item": "English-only audio or a scripted sales pitch without medical context (flagged as foreign to her style).",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Stating or implying that any child needs protein supplementation, or recommending a dose; her authority makes this high-stakes.",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Product-review language that ranks Little Joys against other brands; her review posts name other brands.",
+      "reason": "Creator-specific (from her/his own profile and posts).",
+      "source": "creator profile"
+    },
+    {
+      "item": "Other brands visible in this creator's posts (AI-labelled): Alkem, Calpol, Carepure, Chupa Chups, Cipla, Dr. Reddy's, Ibugesic Plus, LifeCell, Meftal, Woodwards. Do not show or mention any in the Little Joys video.",
+      "reason": "Exclusivity and clean-brand framing; verify contracts.",
+      "source": "post labels"
+    },
+    {
+      "item": "Foreign-feeling styles per profile: High-production studio lighting, scripted sales pitches that lack medical context, or English-only audio without Hindi explanations.",
+      "reason": "From the creator's AI-generated profile.",
+      "source": "creator profile (AI-generated)"
+    }
+  ],
+  "scenes": [
+    {
+      "n": 1,
+      "voice": "Front of pack aur back of pack. Fark samjhiye.",
+      "visual": "Split-screen: left, doctor to camera in her clinic; right, jar front-of-pack. Medical doll visible on the desk (from her posts).",
+      "text": "FRONT vs BACK",
+      "start": 0,
+      "end": 4,
+      "est_speech_s": 3.3,
+      "caption": "Front of pack aur back of pack. Fark samjhiye."
+    },
+    {
+      "n": 2,
+      "voice": "Pehla rule: front par likhe daave nahi, back ki ingredients list aur serving table dekhiye.",
+      "visual": "Doctor taps a desk whiteboard with two headings: Ingredients | Serving size.",
+      "text": "Front of pack vs back of pack",
+      "start": 4,
+      "end": 13,
+      "est_speech_s": 5.6,
+      "caption": "Pehla rule: front par likhe daave nahi, back ki ingredients list aur serving table dekhiye."
+    },
+    {
+      "n": 3,
+      "voice": "Ab label dekhiye. \"Plant-based protein made with soy, pea, and brown rice isolate\". \"12g protein per scoop\". Aur sugar ke baare mein likha hai: \"No added sugar, no preservatives\".",
+      "visual": "Split-screen: label panel left, doctor reading right; each quoted line is highlighted as she reads it, nothing more.",
+      "text": "\"Plant-based protein made with soy, pea, and brown rice isolate\"",
+      "start": 13,
+      "end": 25,
+      "est_speech_s": 10.7,
+      "caption": "Ab label dekhiye. \"Plant-based protein made with soy, pea, and brown rice isolate\". \"12g protein per scoop\". Aur sugar ke baare mein likha hai: \"No added sugar, no preservatives\"."
+    },
+    {
+      "n": 4,
+      "voice": "Kisi bhi supplement se pehle apne bacche ke doctor se baat zaroor kijiye. Pack par age guidance: [[CONFIRM: age band and serving guidance from Little Joys]]",
+      "visual": "Doctor gestures to the medical doll while she says to ask the child's doctor.",
+      "text": "Age and serving: [[CONFIRM: from Little Joys]]",
+      "start": 25,
+      "end": 34,
+      "est_speech_s": 9.3,
+      "caption": "Kisi bhi supplement se pehle apne bacche ke doctor se baat zaroor kijiye. Pack par age guidance: [[age band and serving guidance from Little Joys]]"
+    },
+    {
+      "n": 5,
+      "voice": "Save this reel taaki label padhna yaad rahe. Product details: [[CONFIRM: link or code]]. Little Joys ke saath paid partnership.",
+      "visual": "Doctor points to the 'Save' icon on screen; end card with link/code placeholder and disclosure.",
+      "text": "Save this reel  |  [[CONFIRM: link]]  #ad",
+      "start": 34,
+      "end": 40,
+      "est_speech_s": 7.0,
+      "caption": "Save this reel taaki label padhna yaad rahe. Product details: [[link or code]]. Little Joys ke saath paid partnership."
+    }
+  ],
+  "timing": {
+    "total_s": 40,
+    "est_speech_s": 35.9,
+    "pace_words_per_s": 2.7
+  },
+  "post_caption": "Label padhna seekhiye: protein mix ka label, front vs back. Little Joys Proteinmix ke label par jo likha hai woh dikhaya hai. [[CONFIRM: age and serving guidance]]  #ad #paidpartnership [[CONFIRM: brand handle to tag]]",
+  "facts_used": [
+    "P_PROT",
+    "P_SOURCES",
+    "P_SUGAR"
+  ],
+  "fact_table": [
+    {
+      "id": "P_PROT",
+      "text": "12g protein per scoop",
+      "role": "protein",
+      "ad_ids": [
+        "LJ-034",
+        "LJ-077",
+        "LJ-098"
+      ],
+      "n_ads": 3,
+      "status": "brand-stated (needs brand confirmation)"
+    },
+    {
+      "id": "P_SOURCES",
+      "text": "Plant-based protein made with soy, pea, and brown rice isolate",
+      "role": "source",
+      "ad_ids": [
+        "LJ-001"
+      ],
+      "n_ads": 1,
+      "status": "brand-stated (needs brand confirmation)"
+    },
+    {
+      "id": "P_SUGAR",
+      "text": "No added sugar, no preservatives",
+      "role": "sugar",
+      "ad_ids": [
+        "LJ-036",
+        "LJ-056"
+      ],
+      "n_ads": 2,
+      "status": "brand-stated (needs brand confirmation)"
+    }
+  ],
+  "placeholders": [
+    "[[CONFIRM: age and serving guidance]]",
+    "[[CONFIRM: age band and serving guidance from Little Joys]]",
+    "[[CONFIRM: brand handle to tag]]",
+    "[[CONFIRM: from Little Joys]]",
+    "[[CONFIRM: link or code]]",
+    "[[CONFIRM: link]]"
+  ],
+  "validation": [
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: age band and serving guidance from Little Joys]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene4.voice"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: from Little Joys]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene4.text"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.voice"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link]]",
+      "message": "Needs input from Little Joys.",
+      "where": "scene5.text"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link or code]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.spoken"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: link]]",
+      "message": "Needs input from Little Joys.",
+      "where": "cta.on_screen"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: age and serving guidance]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    },
+    {
+      "severity": "info",
+      "kind": "placeholder",
+      "match": "[[CONFIRM: brand handle to tag]]",
+      "message": "Needs input from Little Joys.",
+      "where": "post_caption"
+    }
+  ]
+}
