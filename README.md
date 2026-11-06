@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Creator Intelligence Platform – Little Joys
 
 Reproducible analytics for matching ad-creative patterns to purchases/revenue and, later, to creators.
@@ -47,3 +48,7 @@ Explicit ad↔post attribute mapping, LJ-004-aware ad patterns and per-creator s
 
 ## AI Creative Studio
 Sidebar page **AI Creative Studio**: pick one of the five shortlisted creators, generate a brief (concept, 3 hooks, 30-45 s script, visual directions, on-screen text, CTA, tone, claims to avoid), edit it, regenerate single sections and download .md/.json. Works offline from templates; an optional LLM path activates with `ANTHROPIC_API_KEY`. Only claims found in Little Joys' own ad files are used; everything else is a `[[CONFIRM: ...]]` placeholder. See `docs/creative_studio.md`; batch outputs via `python scripts/run_creative_studio.py`.
+=======
+# LittleJoy
+Data-driven creator intelligence and campaign recommendation platform
+>>>>>>> a6a7eea757619493b483158b506406d0f0d0aacc
